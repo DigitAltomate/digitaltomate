@@ -1,0 +1,1941 @@
+# Copyright (C) 2012-2017 SecuPress
+# This file is distributed under the same license as the SecuPress package.
+# Translators:
+# wpmedia <contact@secupress.me>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: SecuPress Pro\n"
+"Report-Msgid-Bugs-To: https://secupress.me/\n"
+"POT-Creation-Date: 2020-05-27 09:42+0200\n"
+"PO-Revision-Date: 2020-05-27 09:43+0200\n"
+"Last-Translator: Julio Potier <julio@secupress.me>\n"
+"Language-Team: French (France) <contact@secupress.me>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _x:1,2c;__;_e;_ex:1,2c;_n:1,2;_nx:1,2;esc_html__;"
+"esc_html_e;esc_attr__;esc_attr_e;_n_noop:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: core\n"
+"X-Poedit-SearchPathExcluded-2: uninstall-core.php\n"
+
+#: inc/activation.php:84
+#, php-format
+msgid ""
+"Hello %1$s, you just activated the double authentication module "
+"\"PasswordLess\".<br><br>To be sure this module can be activated, confirm "
+"your action by clicking the link below:<br><br><a href=\"%2$s\">%2$s</"
+"a><br><br>Thank you, have a nice day!"
+msgstr ""
+"Bonjour %1$s, vous venez d’activer le module de double authentification "
+"\"PasswordLess\".<br><br>Pour activer ce module, confirmez votre action en "
+"cliquant sur le lien suivant :<br><br><a href=\"%2$s\">%2$s</a><br><br>Merci "
+"et bonne journée !"
+
+#: inc/activation.php:88
+msgid "[###SITENAME###] PasswordLess 2FA: Validation required"
+msgstr "[###SITENAME###] PasswordLess 2FA : Validation requise"
+
+#: inc/activation.php:188 inc/activation.php:252 inc/activation.php:317
+#: inc/modules/sensitive-data/plugins/hotlink.php:27
+#: inc/modules/users-login/plugins/password-expiration.php:98
+#, php-format
+msgid "%s:"
+msgstr "%s :"
+
+#. Translators: 1 is a file name, 2 and 3 are small parts of code.
+#: inc/activation.php:194
+#, php-format
+msgid ""
+"It seems your %1$s file is not writable, you have to edit it manually. "
+"Please remove all rules between %2$s and %3$s."
+msgstr ""
+"Il semble que votre fichier %1$s n’est pas en écriture, vous devrez l’éditer "
+"manuellement. Merci de supprimer toutes les règles entre %2$s et %3$s."
+
+#. Translators: %s is a file name.
+#: inc/activation.php:202
+#, php-format
+msgid ""
+"It seems your %s file is not writable, you have to edit it manually. Please "
+"remove all rules between the following markers:"
+msgstr ""
+"Il semble que votre fichier %s n’est pas en écriture, vous devrez l’éditer "
+"manuellement. Merci de supprimer toutes les règles entre les marqueurs "
+"suivants :"
+
+#: inc/activation.php:209 inc/activation.php:340
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s et %2$s"
+
+#. Translators: 1 is a file name, 2 is a small part of code.
+#: inc/activation.php:260
+#, php-format
+msgid ""
+"It seems your %1$s file is not writable, you have to edit it manually. "
+"Please remove all nodes with %2$s."
+msgstr ""
+"Il semble que votre fichier %1$s n’est pas en écriture, vous devrez l’éditer "
+"manuellement. Merci de supprimer tous les nœuds avec %2$s."
+
+#. Translators: 1 is a file name, 2 is a list of small parts of code.
+#: inc/activation.php:271
+#, php-format
+msgid ""
+"It seems your %1$s file is not writable, you have to edit it manually. "
+"Please remove all nodes with the following markers: %2$s"
+msgstr ""
+"Il semble que votre fichier %1$s n’est pas en écriture, vous devrez l’éditer "
+"manuellement. Merci de retirer tous les nœuds avec le marqueur %2$s"
+
+#. Translators: 1 and 2 are small parts of code, 3 is a file name.
+#: inc/activation.php:325
+#, php-format
+msgid ""
+"Your server runs <strong>Ngnix</strong>, you have to edit the configuration "
+"file manually. Please remove all rules between %1$s and %2$s from the %3$s "
+"file."
+msgstr ""
+"Votre serveur utilise le système <i>Ngnix</i>. Vous devrez alors éditer "
+"votre fichier de configuration manuellement. Merci de supprimer les règles "
+"entre %1$s et %2$s dans le fichier %3$s."
+
+#. Translators: %s is a file name.
+#: inc/activation.php:333
+#, php-format
+msgid ""
+"Your server runs <strong>Ngnix</strong>, you have to edit the configuration "
+"file manually. Please remove all rules between the following markers from "
+"the %1$s file:"
+msgstr ""
+"Votre serveur utilise le système <i>Ngnix</i>. Vous devrez alors éditer "
+"votre fichier de configuration manuellement. Merci de supprimer les règles "
+"avec les marqueurs suivants dans le fichier %1$s :"
+
+#: inc/admin/ajax-post-callbacks.php:22
+#: inc/modules/users-login/plugins/sessions-control.php:349
+#: inc/modules/users-login/plugins/sessions-control.php:404
+#: inc/modules/users-login/plugins/sessions-control.php:500
+#: inc/modules/users-login/plugins/sessions-control.php:554
+msgid "Cheatin&#8217; uh?"
+msgstr "Alors, on triche ?"
+
+#. Translators: %s is a php constant name.
+#: inc/admin/ajax-post-callbacks.php:24
+#, php-format
+msgid "Sorry, you must define the %s constant first."
+msgstr "Désolé, vous devez définir la constante %s en premier."
+
+#: inc/admin/ajax-post-callbacks.php:37
+msgid "Sorry, you must activate your Pro license to use the White Label."
+msgstr ""
+"Désolé, vous devez activez votre licence Pro pour utiliser le White Label."
+
+#: inc/admin/ajax-post-callbacks.php:97
+msgid "Settings saved."
+msgstr "Réglages sauvegardés."
+
+#: inc/admin/ajax-post-callbacks.php:126 inc/modules/welcome/callbacks.php:19
+msgid "The file was empty."
+msgstr "Le fichier était vide."
+
+#: inc/admin/ajax-post-callbacks.php:148 inc/modules/welcome/callbacks.php:41
+msgid "Settings imported and saved."
+msgstr "Réglages importés et sauvegardés."
+
+#: inc/admin/ajax-post-callbacks.php:150 inc/modules/welcome/callbacks.php:43
+msgid "Error: settings could not be imported."
+msgstr "Erreur : les réglages n&rsquo;ont pu être importés."
+
+#: inc/admin/ajax-post-callbacks.php:291 inc/admin/ajax-post-callbacks.php:298
+msgid "GeoIP database not updated."
+msgstr "La base de données GeoIP n’a pas été mise à jour."
+
+#: inc/admin/ajax-post-callbacks.php:296
+msgid "GeoIP database updated."
+msgstr "La base de données GeoIP a été mise à jour."
+
+#: inc/admin/migrate.php:228
+#, php-format
+msgid "More information about %s"
+msgstr "Plus d’informations à propos de %s"
+
+#: inc/admin/migrate.php:230
+msgid "View details"
+msgstr "Afficher les détails"
+
+#: inc/admin/migrate.php:243
+msgid "Visit plugin site"
+msgstr "Aller sur le site de l’extension"
+
+#: inc/admin/modules/wl.php:6
+msgid ""
+"You can change the name of the plugin, this will be shown on the plugins "
+"page, only when activated."
+msgstr ""
+"Vous pouvez changer le nom du plugin. Il sera visible dans la page des "
+"plugins uniquement s’il est activé."
+
+#: inc/admin/modules/wl.php:7
+msgid "White Label"
+msgstr "Marque blanche"
+
+#: inc/admin/modules/wl.php:11
+msgid "Plugin name"
+msgstr "Nom du plugin"
+
+#: inc/admin/modules/wl.php:17
+msgid "Plugin URL"
+msgstr "URL du plugin"
+
+#: inc/admin/modules/wl.php:23
+msgid "Plugin description"
+msgstr "Description du plugin"
+
+#: inc/admin/modules/wl.php:29
+msgid "Plugin author"
+msgstr "Auteur du plugin"
+
+#: inc/admin/modules/wl.php:35
+msgid "Plugin author URL"
+msgstr "URL de l’auteur"
+
+#: inc/admin/settings.php:43
+msgid "Start hour and minute"
+msgstr "Heure et minute de début"
+
+#: inc/admin/settings.php:45
+msgctxt "starting hour + minute"
+msgid "From"
+msgstr "À partir de"
+
+#: inc/admin/settings.php:46 inc/admin/settings.php:61
+msgid "Hour"
+msgstr "Heure"
+
+#: inc/admin/settings.php:48 inc/admin/settings.php:63
+msgctxt "hour"
+msgid "h"
+msgstr "h"
+
+#: inc/admin/settings.php:51 inc/admin/settings.php:66
+msgid "Minute"
+msgstr "Minute"
+
+#: inc/admin/settings.php:53 inc/admin/settings.php:68
+msgctxt "minute"
+msgid "min"
+msgstr "mn"
+
+#: inc/admin/settings.php:58
+msgid "End hour and minute"
+msgstr "Heure et minute de fin"
+
+#: inc/admin/settings.php:60
+msgctxt "ending hour + minute"
+msgid "To"
+msgstr "Jusqu’à"
+
+#: inc/admin/settings.php:119
+msgid "Expand"
+msgstr "Déplier"
+
+#: inc/admin/settings.php:156 inc/admin/settings.php:168
+msgid "Stop task"
+msgstr "Arrêter la tâche"
+
+#: inc/admin/settings.php:160
+msgid "Search for malicious files"
+msgstr "Rechercher les fichiers malicieux"
+
+#: inc/admin/settings.php:168
+msgid "Search for modified files"
+msgstr "Rechercher les fichiers modifiés"
+
+#: inc/admin/settings.php:182
+msgid "This version of WordPress has not been scanned yet."
+msgstr "Cette version de WordPress n’a pas encore été scannée."
+
+#: inc/admin/settings.php:187
+msgid "Nothing found, well done."
+msgstr "Rien trouvé, bon travail."
+
+#: inc/admin/settings.php:203
+msgid "The following files have been considered not harmful by yourself"
+msgstr "Vous avez considéré les fichiers suivants comme non dangereux"
+
+#: inc/admin/settings.php:208 inc/admin/settings.php:226
+#: inc/admin/settings.php:255 inc/admin/settings.php:272
+#: inc/admin/settings.php:304 inc/admin/settings.php:321
+#: inc/admin/settings.php:371 inc/admin/settings.php:379
+#: inc/admin/settings.php:429 inc/admin/settings.php:437
+msgid "(Un)Select All"
+msgstr "Tout (dé)sélectionner"
+
+#: inc/admin/settings.php:219
+#, php-format
+msgid "Checksum MD5: %s"
+msgstr "Somme MD5 : %s"
+
+#: inc/admin/settings.php:232
+msgid "Remove selected files from whitelist"
+msgstr "Retirer ces fichiers de la liste blanche"
+
+#: inc/admin/settings.php:248
+msgid "The followings are not files from WordPress core"
+msgstr "Les fichiers suivants ne font pas partie du cœur de WordPress"
+
+#: inc/admin/settings.php:250 inc/admin/settings.php:365
+#: inc/admin/settings.php:423 inc/modules/file-system/tools.php:292
+msgid "Possible malware found"
+msgstr "Malware possiblement présent"
+
+#: inc/admin/settings.php:278 inc/admin/settings.php:385
+msgid "Delete selected files"
+msgstr "Supprimer les fichiers sélectionnés"
+
+#: inc/admin/settings.php:279
+msgid "Add selected files in the whitelist"
+msgstr "Ajouter les fichier sélectionnés dans la liste blanche"
+
+#: inc/admin/settings.php:283
+msgid ""
+"When you tag a file as \"Not a malware\", you will add this file in a "
+"whitelist in a smart way. Also it will send this information on our server."
+msgstr ""
+"Quand vous marquez un fichier comme \"N’est pas dangereux\", vous ajoutez ce "
+"fichier dans une liste blanche d’une façon intelligente. Aussi vous envoyez "
+"cette information sur notre serveur."
+
+#: inc/admin/settings.php:299
+msgid "The followings are missing from WordPress core files"
+msgstr "Les fichiers suivants sont manquants dans le core de WordPress"
+
+#: inc/admin/settings.php:327 inc/admin/settings.php:443
+msgid "Recover selected files"
+msgstr "Rétablir les fichiers sélectionnés"
+
+#: inc/admin/settings.php:362
+msgid "The followings are old WordPress core files"
+msgstr "Les fichiers suivants sont d’anciens fichiers du core de WordPress"
+
+#: inc/admin/settings.php:409
+msgid "See differences"
+msgstr "Voir les différences"
+
+#: inc/admin/settings.php:420
+msgid "The followings are modified WordPress core files"
+msgstr "Les fichiers suivants du core de WordPress ont été modifiés"
+
+#: inc/admin/settings.php:463
+msgid "No Backups found yet, do one?"
+msgstr "Aucune sauvegarde trouvée, en créer une ?"
+
+#: inc/admin/settings.php:467 inc/modules/backups/callbacks.php:89
+#: inc/modules/backups/callbacks.php:132 inc/modules/backups/callbacks.php:221
+#, php-format
+msgid "%s available Backup"
+msgid_plural "%s available Backups"
+msgstr[0] "%s sauvegarde disponible"
+msgstr[1] "%s sauvegardes disponibles"
+
+#: inc/admin/settings.php:470
+msgid "Backups"
+msgstr "Sauvegardes"
+
+#: inc/admin/settings.php:480
+msgid "Delete all Backups"
+msgstr "Supprimer toutes les sauvegardes"
+
+#: inc/admin/settings.php:507
+msgid "DataBase Tables"
+msgstr "Tables de la base de données"
+
+#: inc/admin/settings.php:509
+msgid "Unknown tables"
+msgstr "Tables inconnues"
+
+#: inc/admin/settings.php:531 inc/admin/settings.php:543
+msgctxt "database table"
+msgid "None"
+msgstr "Aucune"
+
+#: inc/admin/settings.php:535
+msgid "WordPress tables (mandatory)"
+msgstr "Tables de WordPress"
+
+#: inc/admin/settings.php:549 inc/admin/settings.php:554
+msgid "Backup my Database"
+msgstr "Sauvegarder ma base de données"
+
+#: inc/admin/settings.php:549 inc/admin/settings.php:589
+msgid "Backuping&hellip;"
+msgstr "Sauvegarde en cours&hellip;"
+
+#: inc/admin/settings.php:580
+msgid "Do not backup the following files and folders:"
+msgstr "Ne pas sauvegarder les fichiers et dossiers suivants :"
+
+#: inc/admin/settings.php:584
+msgid "One file or folder per line."
+msgstr "Un fichier ou dossier par ligne."
+
+#: inc/admin/settings.php:589 inc/admin/settings.php:594
+msgid "Backup my Files"
+msgstr "Sauvegarder mes fichiers"
+
+#: inc/admin/settings.php:618 inc/admin/settings.php:687
+#: inc/admin/settings.php:739
+msgid "Nothing's scheduled yet."
+msgstr "Aucune planification pour le moment."
+
+#: inc/admin/settings.php:623 inc/admin/settings.php:692
+#: inc/admin/settings.php:744
+msgctxt "Schedule date"
+msgid "l, F jS, Y \\a\\t h:ia"
+msgstr "l j F Y \\à H:i"
+
+#: inc/admin/settings.php:635
+msgid "the database"
+msgstr "la base de données"
+
+#: inc/admin/settings.php:638
+msgid "the files"
+msgstr "les fichiers"
+
+#. Translators: 1 is a date, 2 is "the database", "the files", or "the database and the files".
+#: inc/admin/settings.php:650
+#, php-format
+msgid "Next backup will occur %1$s and will backup %2$s."
+msgstr "La prochaine sauvegarde sera lancée %1$s et contiendra %2$s."
+
+#. Translators: 1 is "repeat every X days", 2 is an email address.
+#: inc/admin/settings.php:660 inc/admin/settings.php:712
+#: inc/admin/settings.php:764
+#, php-format
+msgid "This task will %1$s, and once finished you will be notified at: %2$s."
+msgstr ""
+"Cette tâche sera %1$s, et une fois terminé une notification sera envoyé sur "
+"%2$s."
+
+#: inc/admin/settings.php:661 inc/admin/settings.php:668
+#: inc/admin/settings.php:713 inc/admin/settings.php:720
+#: inc/admin/settings.php:765 inc/admin/settings.php:772
+#, php-format
+msgid "repeat every %d day"
+msgid_plural "repeat every %d days"
+msgstr[0] "répétée tous les %d jour"
+msgstr[1] "répétée tous les %d jours"
+
+#. Translators: %s is "repeat every X days".
+#: inc/admin/settings.php:667 inc/admin/settings.php:719
+#: inc/admin/settings.php:771
+#, php-format
+msgid "This task will %s."
+msgstr "Cette tâche sera %s."
+
+#. Translators: %s is a date.
+#: inc/admin/settings.php:703 inc/admin/settings.php:755
+#, php-format
+msgid "Next scan will occur %s."
+msgstr "Le prochain scan sera lancé %s."
+
+#: inc/classes/admin/class-secupress-pro-admin-edd-sl-plugin-updater.php:216
+#: inc/classes/vendors/edd-software-licensing/SecuPress_EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Il y a une nouvelle version disponible pour %1$s. %2$sVoir les détails de la "
+"version %3$s%4$s."
+
+#: inc/classes/admin/class-secupress-pro-admin-edd-sl-plugin-updater.php:224
+#: inc/classes/vendors/edd-software-licensing/SecuPress_EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Il y a une nouvelle version disponible pour %1$s. %2$sVoir les détails de la "
+"version %3$s%4$s ou %5$smettez à jour maintenant%6$s."
+
+#. Translators: %s is a link to the "plugin settings page".
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:89
+#, php-format
+msgid ""
+"Your Pro license is not set yet. If you want to activate all the Pro "
+"features, premium support and updates, take a look at %s."
+msgstr ""
+"Votre licence Pro n&rsquo;est pas encore renseignée. Si vous souhaitez "
+"activer toutes les fonctionnalités Pro, le support premium et mises à jour, "
+"jetez un œil à %s."
+
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:90
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:100
+msgid "the plugin settings page"
+msgstr "la page des réglages du plugin"
+
+#. Translators: %s is a link to the "plugin settings page".
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:99
+#, php-format
+msgid ""
+"Your Pro license is not valid. If you want to activate all the Pro features, "
+"premium support and updates, take a look at %s."
+msgstr ""
+"Votre licence Pro n&rsquo;est pas valide. Si vous souhaitez activer toutes "
+"les fonctionnalités Pro, le support premium et mises à jour, jetez un œil à "
+"%s."
+
+#. Translators: we're talking about the license key.
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:161
+msgid "please verify it"
+msgstr "merci de la vérifier"
+
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:162
+msgid "to install the free version"
+msgstr "installer la version gratuite"
+
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:163
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:164
+msgid "Open in a new window."
+msgstr "Ouvrir dans une nouvelle fenêtre."
+
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:163
+msgid "our support team"
+msgstr "notre équipe support"
+
+#. Translators: 1 is a link to the plugin settings page, 2 is a "our support team" link, 3 is a "to install the free version" link.
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:170
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:175
+#, php-format
+msgid ""
+"There is a problem with your license key, %1$s. If you think there is a "
+"mistake, you should contact %2$s. Otherwise, you may want %3$s to get future "
+"updates."
+msgstr ""
+"Il y a un problème avec votre clé de licence, %1$s. Si vous pensez qu&rsquo;"
+"il s&rsquo;agit d&rsquo;une erreur, veuillez contacter %2$s. Sinon, vous "
+"pouvez %3$s afin de bénéficier des mises à jour futures."
+
+#. Translators: 1 is a "our support team" link, 2 is a "to install the free version" link.
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:180
+#, php-format
+msgid ""
+"This license key has been revoked. If you think there is a mistake, you "
+"should contact %1$s. Otherwise, you may want %2$s to get future updates."
+msgstr ""
+"Cette clé de licence a été révoquée. Si vous pensez qu&rsquo;il s&rsquo;agit "
+"d&rsquo;une erreur, veuillez contacter %1$s. Sinon, vous pouvez %2$s afin de "
+"bénéficier des mises à jour futures."
+
+#. Translators: 1 is a "to renew your subscription" link, 2 is a "to install the free version" link.
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:185
+#, php-format
+msgid ""
+"This license key expired. You may want %1$s or %2$s to get future updates."
+msgstr ""
+"Cette clé de licence a expirée. Peut-être voudrez-vous %1$s ou %2$s afin de "
+"bénéficier des mises à jour futures."
+
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:186
+msgid "to renew your subscription"
+msgstr "renouveler votre abonnement"
+
+#. Translators: 1 is a "to upgrade your license" link, 2 is a "to install the free version" link.
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:191
+#, php-format
+msgid ""
+"You've used as many sites as your license allows. You may want %1$s to add "
+"more sites or %2$s to get future updates."
+msgstr ""
+"Vous avez utilisé autant de sites que votre licence le permet. Peut-être "
+"voudrez-vous %1$s afin d&rsquo;ajouter davantage de sites ou %2$s afin de "
+"bénéficier des mises à jour futures."
+
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:192
+msgid "to upgrade your license"
+msgstr "mettre à niveau votre licence"
+
+#: inc/classes/admin/class-secupress-pro-admin-free-downgrade.php:214
+msgid "https://wordpress.org/plugins/secupress/"
+msgstr "https://fr.wordpress.org/plugins/secupress/"
+
+#. Translators: Plugin Name of the plugin/theme
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:190
+msgid "SecuPress — WordPress Security"
+msgstr "SecuPress — Sécurité WordPress"
+
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:191
+msgid "PLEASE DELETE ME <strong>VIA FTP</strong>."
+msgstr "MERCI DE ME SUPPRIMER <strong>VIA FTP</strong>."
+
+#. Translators: 1 is a plugin name.
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:284
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:295
+#, php-format
+msgid ""
+"Performing actions with %s is forbidden, unless you want the sky to fall to "
+"your head."
+msgstr ""
+"Exécuter des actions avec %s est interdit, sauf si vous souhaitez que le "
+"ciel vous tombe sur la tête."
+
+#. Translators: %s is the Pro plugin name.
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:329
+#, php-format
+msgid ""
+"There is no need to update this plugin anymore, %s is now working without "
+"the free plugin (cool uh?)."
+msgstr ""
+"Il n&rsquo;y a plus besoin de mettre à jour cette extension, %s fonctionne "
+"maintenant sans l’extension gratuite (cool hein&#160;?)."
+
+#. Translators: 1 is the plugin name, 2 is a folder path.
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:395
+#, php-format
+msgid ""
+"%1$s couldn't delete the free plugin. Please delete the folder %2$s via FTP."
+msgstr ""
+"%1$s n&rsquo;a pas pu supprimer l&rsquo;extension gratuite. Veuillez "
+"supprimer le dossier %2$s via FTP."
+
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:417
+#: inc/modules/plugins-themes/plugins/plugin-activation.php:33
+#: inc/modules/plugins-themes/plugins/plugin-activation.php:81
+msgid "Network Activate"
+msgstr "Activer sur le réseau"
+
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:417
+#: inc/modules/plugins-themes/plugins/plugin-activation.php:35
+msgid "Activate"
+msgstr "Activer"
+
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:421
+#: inc/modules/backups/callbacks.php:300
+#: inc/modules/plugins-themes/plugins/plugin-deletion.php:25
+msgid "Delete"
+msgstr "Supprimer"
+
+#. Translators: 1 is a folder path.
+#: inc/classes/admin/class-secupress-pro-admin-remove-free-plugin.php:454
+#, php-format
+msgid "Please delete the folder %s via FTP."
+msgstr "Veuillez supprimer le dossier %s via FTP."
+
+#: inc/classes/admin/class-secupress-pro-admin-scan-report-pdf.php:22
+msgid "Security Report"
+msgstr "Rapport de sécurité"
+
+#: inc/classes/admin/class-secupress-pro-admin-scan-report-pdf.php:28
+msgctxt "pdf report date"
+msgid "M jS, Y \\a\\t h:i:sa"
+msgstr "j M Y \\à G:i:s"
+
+#: inc/classes/vendors/edd-software-licensing/SecuPress_EDD_SL_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n’avez pas la permission d’installer des mises à jour de plugins"
+
+#: inc/classes/vendors/edd-software-licensing/SecuPress_EDD_SL_Plugin_Updater.php:396
+msgid "Error"
+msgstr "Erreur"
+
+#: inc/common.php:95
+msgid "/pricing/"
+msgstr "/fr/tarifs/"
+
+#: inc/functions/common.php:236
+msgid "Insert/edit link"
+msgstr "Insérer/modifier un lien"
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:346
+msgctxt "a WP role"
+msgid "None"
+msgstr "Aucun"
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:392
+msgid "empty string"
+msgstr "chaine vide"
+
+#. Translators: 1 is an event, 2 is a number.
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:481
+#, php-format
+msgid "%1$s (%2$s occurrence)"
+msgid_plural "%1$s (%2$s occurrences)"
+msgstr[0] "%1$s (%2$s occurrence)"
+msgstr[1] "%1$s (%2$s occurrences)"
+
+#. Translators: %s is the blog name.
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:507
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-daily-reporting.php:150
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-event-alerts.php:180
+#, php-format
+msgid "[%s] New important event on your site"
+msgid_plural "[%s] New important events on your site"
+msgstr[0] "[%s] Nouvel évènement important sur votre site"
+msgstr[1] "[%s] Nouveaux évènements importants sur votre site"
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:508
+msgid "An important event happened on your site:"
+msgid_plural "Some important events happened on your site:"
+msgstr[0] "Un évènement important est arrivé sur votre site :"
+msgstr[1] "Des évènements importants sont arrivés sur votre site :"
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:666
+#, php-format
+msgid "Your site's name has been changed to: %s."
+msgstr "Le nom de votre site a été modifié en : %s."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:667
+#, php-format
+msgid "Your site's description has been changed to: %s."
+msgstr "La description de votre site a été modifiée en : %s."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:668
+#, php-format
+msgid "Your site's URL has been changed to: %s."
+msgstr "L’URL de votre site a été modifiée en : %s."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:669
+#, php-format
+msgid "Your site's home URL has been changed to: %s."
+msgstr "L’URL de l’accueil de votre site a été modifiée en : %s."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:670
+#, php-format
+msgid "Your admin email address has been changed to: %s."
+msgstr "L’adresse e-mail de l’administrateur a été modifiée en : %s."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:671
+msgid "Users can now register on your site."
+msgstr "Des utilisateurs peuvent maintenant s’inscrire sur votre site."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:672
+#, php-format
+msgid "When users register on your site, their user role is now %s."
+msgstr ""
+"Quand des utilisateurs s’inscrivent sur votre site, leur role est maintenant "
+"%s."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:673
+#, php-format
+msgid "Your network's name has been changed to: %s."
+msgstr "Le nom de votre réseau a été modifié en : %s."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:674
+#, php-format
+msgid "Your network admin email address has been changed to: %s."
+msgstr "L’adresse de l’administrateur de votre réseau a été modifiée en : %s."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:675
+msgid "Users can now register on your network, and maybe create sites."
+msgstr ""
+"Des utilisateurs peuvent maintenant s’inscrire sur votre réseau, et peut-"
+"être créer des sites."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:676
+msgid "Email notifications have been disabled when users or sites register."
+msgstr ""
+"La notification par e-mail de création d’un utilisateur ou d’un site a été "
+"désactivée."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:677
+msgid "Administrators can now add new users to their site."
+msgstr ""
+"Les administrateurs peuvent maintenant ajouter des utilisateurs sur leur "
+"site."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:678
+msgid "The list of banned user names has been emptied."
+msgstr "La liste des noms d’utilisateurs bannis a été vidée."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:679
+msgid "The list of email domains allowed to create sites has been modified."
+msgstr ""
+"La liste des domaines d’adresse e-mail autorisée à créer des sites a été "
+"modifiée."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:680
+msgid ""
+"The list of email domains not allowed to create sites has been modified."
+msgstr ""
+"La liste des domaines d’adresse e-mail non autorisées à créer des sites a "
+"été modifiée."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:681
+#, php-format
+msgid ""
+"The IP address %2$s hasn’t been blocked because it’s whitelisted.<br/"
+">Module: %1$s<br/>Data: %3$s"
+msgstr ""
+"L’adresse IP %2$s n’a pas été bloquée car autorisée.<br/>Module: %1$s<br/"
+">Données: %3$s"
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:682
+#, php-format
+msgid "The IP address %2$s has been blocked.<br/>Module: %1$s<br/>Data: %3$s"
+msgstr "L’adresse IP %2$s a été bloquée.<br/>Module: %1$s<br/>Données: %3$s"
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:683
+#, php-format
+msgid "The IP address %1$s has been banned."
+msgstr "L’adresse IP %1$s a été bannie."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:684
+#, php-format
+msgid "The IP address %1$s has been banned, country %2$s is not allowed."
+msgstr "L’adresse IP %1$s a été bannie, le pays %2$s n'est pas autorisé."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:685
+#, php-format
+msgid "The user %s just logged in."
+msgstr "L’utilisateur %s vient de se connecter."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-alerts.php:697
+#, php-format
+msgid "Missing message for key %s."
+msgstr "Message manquant pour la clé %s."
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-daily-reporting.php:151
+msgid "An important event happened on your site today:"
+msgid_plural "Some important events happened on your site today:"
+msgstr[0] "Un évènement important est arrivé sur votre site aujourd’hui :"
+msgstr[1] "Des évènements importants sont arrivés sur votre site aujourd’hui :"
+
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-event-alerts.php:186
+msgid "An important event just happened on your site:"
+msgid_plural "Some important events just happened on your site:"
+msgstr[0] "Un évènement important vient d’arriver sur votre site :"
+msgstr[1] "Des évènements importants viennent d’arriver sur votre site :"
+
+#. Translators: %d is a number.
+#: inc/modules/alerts/plugins/inc/php/alerts/class-secupress-event-alerts.php:190
+#, php-format
+msgid "An important event happened on your site for the last %d minutes:"
+msgid_plural ""
+"Some important events happened on your site for the last %d minutes:"
+msgstr[0] ""
+"Un évènement important est arrivé sur votre site durant les dernières %d "
+"minutes :"
+msgstr[1] ""
+"Des évènements importants sont arrivés sur votre site durant les dernières "
+"%d minutes :"
+
+#: inc/modules/backups/callbacks.php:75 inc/modules/backups/callbacks.php:119
+msgid ""
+"Class <code>ZipArchive</code> is missing, le zip archive cannot be created."
+msgstr ""
+"La classe <code>ZipArchive</code> est manquante, l’archive zip ne sera pas "
+"créée."
+
+#: inc/modules/backups/callbacks.php:81 inc/modules/backups/callbacks.php:125
+msgid "No backup file created."
+msgstr "Aucun fichier de sauvegarde créé."
+
+#: inc/modules/backups/callbacks.php:280
+msgid "M jS Y"
+msgstr "j M Y"
+
+#: inc/modules/backups/callbacks.php:280
+msgid "G:i"
+msgstr "G:i"
+
+#: inc/modules/backups/callbacks.php:285
+msgid "Database"
+msgstr "Base de données"
+
+#: inc/modules/backups/callbacks.php:289
+msgid "Files"
+msgstr "Fichiers"
+
+#: inc/modules/backups/callbacks.php:300
+msgctxt "verb"
+msgid "Download"
+msgstr "Télécharger"
+
+#: inc/modules/file-system/callbacks.php:135
+#: inc/modules/file-system/callbacks.php:143
+msgid "File Differences"
+msgstr "Différences entre les fichiers"
+
+#: inc/modules/file-system/callbacks.php:144
+msgid ""
+"The differences can't be displayed, the whole file will be displayed instead."
+msgstr ""
+"Les différences ne peuvent être affichées, le fichier complet sera affiché à "
+"la place."
+
+#: inc/modules/file-system/plugins/bad-file-extensions.php:45
+#: inc/modules/file-system/plugins/bad-file-extensions.php:57
+msgid "Bad File Extensions"
+msgstr "Fichiers aux mauvaises extensions"
+
+#. Translators: %s is a file extension.
+#: inc/modules/file-system/tools.php:264
+#, php-format
+msgid "%s in uploads"
+msgstr "%s dans les uploads"
+
+#. Translators: %s is a number.
+#: inc/modules/file-system/tools.php:270
+#, php-format
+msgid "more than %s lines"
+msgstr "plus de %s lignes"
+
+#: inc/modules/firewall/tools.php:56 inc/modules/firewall/tools.php:95
+#: inc/modules/firewall/tools.php:99
+#, php-format
+msgid "GeoIP database has not been updated: %s"
+msgstr "La base de données GeoIP n’a pas été mise à jour : %s"
+
+#: inc/modules/firewall/tools.php:56
+msgid "Download Error"
+msgstr "Erreur de téléchargement"
+
+#: inc/modules/firewall/tools.php:95
+msgid "Unzip Error."
+msgstr "Erreur de Unzip."
+
+#: inc/modules/firewall/tools.php:99
+msgid "Missing File."
+msgstr "Fichier manquant."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:57
+msgid "SecuPress Information:"
+msgstr "Information SecuPress :"
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:65
+#: inc/modules/plugins-themes/plugins/detect-bad-themes.php:51
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is known to contain this vulnerability: %3$s."
+msgid_plural ""
+"<strong>%1$s %2$s</strong> is known to contain these vulnerabilities: %3$s."
+msgstr[0] ""
+"<strong>%1$s %2$s</strong> est connu pour contenir cette vulnérabilité : "
+"%3$s."
+msgstr[1] ""
+"<strong>%1$s %2$s</strong> est connu pour contenir ces vulnérabilités : %3$s."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:71
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:80
+#: inc/modules/plugins-themes/plugins/detect-bad-themes.php:57
+#, php-format
+msgid "version %s (or lower)"
+msgstr "version %s (ou inférieur)"
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:71
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:80
+#: inc/modules/plugins-themes/plugins/detect-bad-themes.php:57
+msgid "all versions"
+msgstr "toutes versions"
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:75
+#: inc/modules/plugins-themes/plugins/detect-bad-themes.php:61
+msgid "More information"
+msgstr "Plus d&rsquo;informations"
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:78
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is known to contain a vulnerability. We don't "
+"have more information about it."
+msgstr ""
+"<strong>%1$s %2$s</strong> est connu pour contenir une vulnérabilité. Nous "
+"n’avons pas plus d’informations à ce sujet."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:89
+#, php-format
+msgid ""
+"SecuPress invites you to <a href=\"%1$s\">Update</a> this plugin to version "
+"%2$s."
+msgstr ""
+"SecuPress vous invite à <a href=\"%1$s\">mettre à jour</a> ce plugin en "
+"version %2$s."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:94
+msgid ""
+"SecuPress invites you to Update this plugin <em>(automatic update is "
+"unavailable for this plugin.)</em>."
+msgstr ""
+"SecuPress vous invite à mettre à jour ce plugin <em>(la mise à jour "
+"automatique n&rsquo;est pas disponible)</em>."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:96
+msgid "Update is unavailable for this plugin.</em>."
+msgstr "Mise à jour indisponible pour ce plugin."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:105
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:132
+#, php-format
+msgid ""
+"SecuPress invites you to <a href=\"%s\">deactivate</a> this plugin, then "
+"delete it."
+msgstr ""
+"SecuPress vous invite à <a href=\"%1$s\">désactiver</a> ce plugin, puis à le "
+"supprimer."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:112
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:139
+#, php-format
+msgid ""
+"SecuPress invites you to <a href=\"%s\">delete</a> this plugin, no patch has "
+"been made by its author."
+msgstr ""
+"SecuPress vous invite à <a href=\"%1$s\">supprimer</a> ce plugin, aucun "
+"correctif n’a été apporté par son auteur."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:121
+#, php-format
+msgid ""
+"<strong>%s</strong> has not been updated on official repository for more "
+"than 2 years now. It can be dangerous."
+msgstr ""
+"<strong>%s</strong> n’a pas été mis à jour sur le dépot officiel depuis plus "
+"de 2 ans. Il peut être dangereux."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:124
+#, php-format
+msgid ""
+"<strong>%s</strong> has been removed from official repository for one of "
+"these reasons: Security Flaw, on Author's demand, Not GPL compatible, this "
+"plugin is under investigation."
+msgstr ""
+"<strong>%s</strong> a été supprimé du dépot officiel pour une de ces "
+"raisons : Faille de sécurité, demande de l’auteur, non compatible GPL, ce "
+"plugin est sous investigation."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-plugins.php:178
+#, php-format
+msgid ""
+"Your installation contains %1$s plugin considered as <em>bad</em>, check the "
+"details in <a href=\"%2$s\">the plugins page</a>."
+msgid_plural ""
+"Your installation contains %1$s plugins considered as <em>bad</em>, check "
+"the details in <a href=\"%2$s\">the plugins page</a>."
+msgstr[0] ""
+"Votre installation contient %1$s plugin considéré comme <em>mauvais</em>, "
+"vérifiez les détails sur <a href=\"%2$s\">la page des plugins</a>."
+msgstr[1] ""
+"Votre installation contient %1$s plugins considérés comme <em>mauvais</em>, "
+"vérifiez les détails sur <a href=\"%2$s\">la page des plugins</a>."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-themes.php:68
+#, php-format
+msgid ""
+"We invite you to <a href=\"%1$s\">Update</a> this theme in version %2$s."
+msgstr ""
+"Nous vous invitons à <a href=\"%1$s\">mettre à jour</a> ce thème en version "
+"%2$s."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-themes.php:73
+msgid ""
+"We invite you to Update this theme <em>(Automatic update is unavailable for "
+"this theme.)</em>."
+msgstr ""
+"Nous vous invitons à mettre à jour ce thème <em>(La mise à jour automatique "
+"n’est pas disponible)</em>."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-themes.php:79
+msgid "We invite you to switch theme, then delete it."
+msgstr "Nous vous invitons à changer de thème, puis de le supprimer."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-themes.php:82
+#, php-format
+msgid "We invite you to <a href=\"%s\">delete it</a>."
+msgstr "Nous vous invitons à le <a href=\"%s\">supprimer</a>."
+
+#: inc/modules/plugins-themes/plugins/detect-bad-themes.php:122
+#, php-format
+msgid ""
+"Your installation contains %1$s theme considered as <em>bad</em>, check the "
+"details in <a href=\"%2$s\">the themes page</a>."
+msgid_plural ""
+"Your installation contains %1$s themes considered as <em>bad</em>, check the "
+"details in <a href=\"%2$s\">the themes page</a>."
+msgstr[0] ""
+"Votre installation contient %1$s thème considéré comme <em>mauvais</em>, "
+"vérifiez les détails sur <a href=\"%2$s\">la page des thèmes</a>."
+msgstr[1] ""
+"Votre installation contient %1$s thèmes considérés comme <em>mauvais</em>, "
+"vérifiez les détails sur <a href=\"%2$s\">la page des thèmes</a>."
+
+#: inc/modules/plugins-themes/plugins/plugin-activation.php:59
+msgid "You do not have sufficient permissions to install plugins on this site."
+msgstr ""
+"Vous n’avez pas les permissions suffisantes pour installer des plugins sur "
+"ce site."
+
+#: inc/modules/plugins-themes/plugins/plugin-activation.php:84
+msgid "Activate Plugin &amp; Run Importer"
+msgstr "Activer le plugin &amp; lancer l’importateur"
+
+#: inc/modules/plugins-themes/plugins/plugin-activation.php:86
+msgid "Activate Plugin"
+msgstr "Activer le plugin"
+
+#: inc/modules/plugins-themes/plugins/plugin-deactivation.php:32
+msgid "Network Deactivate"
+msgstr "Désactiver du réseau"
+
+#: inc/modules/plugins-themes/plugins/plugin-deactivation.php:34
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: inc/modules/plugins-themes/plugins/plugin-deactivation.php:58
+msgid ""
+"You do not have sufficient permissions to deactivate plugins on this site."
+msgstr ""
+"Vous n’avez pas les permissions suffisantes pour désactiver des plugins sur "
+"ce site."
+
+#: inc/modules/plugins-themes/plugins/plugin-deletion.php:48
+#: inc/modules/plugins-themes/plugins/theme-deletion.php:24
+msgid "You do not have sufficient permissions to delete plugins on this site."
+msgstr ""
+"Vous n’avez pas les permissions suffisantes pour supprimer des plugins sur "
+"ce site."
+
+#: inc/modules/plugins-themes/plugins/theme-activation.php:24
+msgid "You do not have sufficient permissions to switch themes on this site."
+msgstr ""
+"Vous n’avez pas les permissions suffisantes pour changer de thème sur ce "
+"site."
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-backups.php:102
+msgid "database and files"
+msgstr "base de données et fichiers"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-backups.php:104
+msgid "database only"
+msgstr "seulement la base de données"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-backups.php:106
+msgid "files only"
+msgstr "seulement les fichiers"
+
+#. Translators: %s is the blog name.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-backups.php:112
+#, php-format
+msgid "[%s] Backup succeeded"
+msgstr "[%s] Sauvegarde effectuée avec succès"
+
+#. Translators: %s is what kind of things are backuped.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-backups.php:114
+#, php-format
+msgid "The scheduled backup of your site (%s) has succeeded!"
+msgstr "La planification de la sauvegarde de votre site (%s) est un succès !"
+
+#. Translators: %s is the blog name.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-backups.php:120
+#, php-format
+msgid "[%s] Backup failed"
+msgstr "[%s] Sauvegarde échouée"
+
+#. Translators: %s is what kind of things are backuped.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-backups.php:122
+#, php-format
+msgid "The scheduled backup of your site (%s) has failed."
+msgstr "La planification de la sauvegarde de votre site (%s) a échoué."
+
+#. Translators: %s is the blog name.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:82
+#, php-format
+msgid "[%s] File Monitoring failed"
+msgstr "[%s] Surveillance des fichiers échouée"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:83
+msgid ""
+"The scheduled File Monitoring of your site couldn't be launched, it was "
+"already running at the time."
+msgstr ""
+"La planification de la surveillance des fichiers de votre site n’a pas pu "
+"être lancée car elle était déjà en cours."
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:88
+msgid "The scheduled files monitoring of your site has succeeded!"
+msgstr ""
+"La planification de la surveillance des fichiers de votre site est un "
+"succès !"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:91
+msgid "There is nothing special to report."
+msgstr "Il n’y a rien de spécial à signaler."
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:97
+msgid "The following file is not from WordPress core:"
+msgid_plural "The following files are not from WordPress core:"
+msgstr[0] "Le fichier suivant ne fait pas partie du core de WordPress :"
+msgstr[1] "Les fichiers suivants ne font pas partie du core de WordPress :"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:111
+msgid "The following file is missing from WordPress core:"
+msgid_plural "The following files are missing from WordPress core:"
+msgstr[0] "Le fichier suivant est manquant dans votre core de WordPress :"
+msgstr[1] "Les fichiers suivants sont manquants dans votre core de WordPress :"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:119
+msgid "The following file is an old WordPress core file:"
+msgid_plural "The following files are old WordPress core files:"
+msgstr[0] "Le fichier suivant est un ancien fichier du core de WordPress :"
+msgstr[1] ""
+"Les fichiers suivants sont d’anciens fichiers du core de WordPress :"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:131
+msgid "The following core file has been modified:"
+msgid_plural "The following core files have been modified:"
+msgstr[0] "Le fichier suivant a été modifié dans le core :"
+msgstr[1] "Les fichiers suivants ont été modifiés dans le core :"
+
+#. Translators: %s is a "Malware Scan" link.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:139
+#, php-format
+msgid "For more details and maybe take actions, go to the %s page."
+msgstr "Pour plus de détails et réaliser des actions, visitez la page %s."
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:139
+msgid "Malware Scan"
+msgstr "Scanner de virus"
+
+#. Translators: %s is the blog name.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-file-monitoring.php:144
+#, php-format
+msgid "[%s] File Monitoring done"
+msgstr "[%s] Surveillance des fichiers effectuée"
+
+#. Translators: %s is the blog name.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-scan.php:118
+#, php-format
+msgid "[%s] Security Scan done"
+msgstr "[%s] Scans de sécurité effectués"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules-scan.php:119
+msgid "The scheduled security scan of your site has succeeded!"
+msgstr "La planification des scans de sécurité de votre site est un succès !"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules.php:111
+#, php-format
+msgid "Every %s Day"
+msgid_plural "Every %s Days"
+msgstr[0] "Tous les %s jour"
+msgstr[1] "Tous les %s jours"
+
+#. Translators: %s is the blog name.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules.php:249
+#, php-format
+msgid "[%s] Operation succeeded"
+msgstr "[%s] Opération effectuée avec succès"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules.php:250
+msgid "The scheduled operation of your site has succeeded!"
+msgstr "La planification des scans de sécurité de votre site est un succès !"
+
+#. Translators: %s is the blog name.
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules.php:256
+#, php-format
+msgid "[%s] Operation failed"
+msgstr "[%s] Opération échouée"
+
+#: inc/modules/schedules/plugins/inc/php/class-secupress-schedules.php:257
+msgid "The scheduled operation of your site has failed."
+msgstr "La planification de l’opération sur votre site a échoué."
+
+#: inc/modules/sensitive-data/plugins/hotlink.php:27
+#: inc/modules/sensitive-data/plugins/hotlink.php:56
+#: inc/modules/sensitive-data/plugins/hotlink.php:68
+msgid "Anti Hotlink"
+msgstr "Anti hotlink"
+
+#: inc/modules/sensitive-data/plugins/hotlink.php:28
+msgid ""
+"The anti hotlink can work only over SSL (the URL of your website must start "
+"with <code>https://</code>)."
+msgstr ""
+"L’anti hotlink fonctionne seulement au travers du SSL (l’URL de votre site "
+"doit commencer par <code>https://</code>)."
+
+#: inc/modules/services/callbacks.php:91
+msgid ""
+"Your message has been sent, we will come back to you shortly. Thank you."
+msgstr ""
+"Votre message a été envoyé, nous reviendrons vers vous rapidement. Merci."
+
+#: inc/modules/services/callbacks.php:94
+msgid "Something on your website is preventing the request to be sent."
+msgstr "Quelque chose sur votre site empêche la requête d’être envoyée."
+
+#: inc/modules/services/callbacks.php:95
+msgid "Our server is not accessible at the moment."
+msgstr "Notre serveur n’est pas accessible pour le moment."
+
+#: inc/modules/services/callbacks.php:96
+msgid "Our server returned an unexpected response and might be in error."
+msgstr ""
+"Notre serveur a retourné une réponse inattendue et cela peut être une erreur."
+
+#: inc/modules/services/callbacks.php:98
+msgid "Our server returned an error related to your license."
+msgstr "Notre serveur a retourné une erreur relative à votre licence."
+
+#: inc/modules/services/callbacks.php:99
+msgid "Our server returned an error related to your license key."
+msgstr "Notre serveur a retourné une erreur relative à votre clé de licence."
+
+#: inc/modules/services/callbacks.php:100
+msgid "Our server returned an error related to your customer account."
+msgstr ""
+"Notre serveur a retourné une erreur relative à votre compte utilisateur."
+
+#: inc/modules/services/callbacks.php:102
+msgid "Your message could not be sent."
+msgstr "Votre message n’a pas pu être envoyé."
+
+#. Translators: %s is an email address.
+#: inc/modules/services/callbacks.php:104
+#, php-format
+msgid "Please send your message manually to %s. Thank you."
+msgstr "Merci d’envoyer ce message manuellement à %s."
+
+#: inc/modules/users-login/plugins/move-login.php:13
+msgid ""
+"This page does not exists, has moved or you are not allowed to access it."
+msgstr ""
+"Cette page n’existe pas, a été déplacée ou vous n’avez pas les droits "
+"d’accès."
+
+#: inc/modules/users-login/plugins/password-expiration.php:99
+#, php-format
+msgid "Your password expired, please <a href=\"%s\">choose a new one</a>."
+msgstr ""
+"Votre mot de passe a expiré, merci d’en <a href=\"%s\">choisir un autre</a>."
+
+#: inc/modules/users-login/plugins/passwordless.php:66
+#: inc/modules/users-login/plugins/passwordless.php:342
+#, php-format
+msgid ""
+"This link is not valid for this user, please try to <a href=\"%s\">log-in "
+"again</a>."
+msgstr ""
+"Ce lien n’est plus valide pour cet utilisateur, merci de vous <a href=\"%s"
+"\">connecter de nouveau</a>."
+
+#: inc/modules/users-login/plugins/passwordless.php:136
+#: inc/modules/users-login/plugins/sessions-control.php:42
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr "<strong>ERREUR</strong> : Nom d’utilisateur ou e-mail invalide."
+
+#: inc/modules/users-login/plugins/passwordless.php:161
+#, php-format
+msgid "[%s] Secure Login Request"
+msgstr "[%s] Demande de connexion sécurisée"
+
+#. Translators: 1 is a user name, 2 is a blog name, 3 is a URL.
+#: inc/modules/users-login/plugins/passwordless.php:174
+#, php-format
+msgid ""
+"Hello %1$s, a log-in has been requested for %2$s. <a href=\"%3$s\">Open this "
+"page to really log in</a>."
+msgstr ""
+"Bonjour %1$s, une connexion a été demandée pour %2$s. <a href=\"%3$s"
+"\">Ouvrez cette page pour vous connecter maintenant</a>."
+
+#: inc/modules/users-login/plugins/passwordless.php:282
+msgid "Log In"
+msgstr "Connexion"
+
+#: inc/modules/users-login/plugins/passwordless.php:282
+msgid "Next"
+msgstr "Suivant"
+
+#: inc/modules/users-login/plugins/passwordless.php:326
+msgid "PasswordLess"
+msgstr "PasswordLess"
+
+#: inc/modules/users-login/plugins/passwordless.php:326
+msgid "Check your e-mail containing the confirmation link."
+msgstr ""
+"Vérifiez votre boite de réception qui doit contenir votre lien de "
+"confirmation."
+
+#: inc/modules/users-login/plugins/passwordless.php:396
+#, php-format
+msgid ""
+"This link is now expired, please try to <a href=\"%s\">log-in again</a>."
+msgstr ""
+"Ce lien est maintenant expiré, merci d’essayer de vous <a href=\"%s"
+"\">connecter de nouveau</a>."
+
+#: inc/modules/users-login/plugins/passwordless.php:452
+msgid "When PasswordLess is activated, for users that don't use it"
+msgstr ""
+"Quand PasswordLess est activé, pour les utilisateurs qui ne l’utilisent pas"
+
+#: inc/modules/users-login/plugins/sessions-control.php:65
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Quelqu’un a demandé une remise à zéro pour le compte suivant :"
+
+#: inc/modules/users-login/plugins/sessions-control.php:68
+#, php-format
+msgid "Username: %s"
+msgstr "Nom d’utilisateur : %s"
+
+#: inc/modules/users-login/plugins/sessions-control.php:69
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Si c’est une erreur, ignorez simplement cet e-mail et rien ne se passera."
+
+#: inc/modules/users-login/plugins/sessions-control.php:70
+msgid "To reset your password, visit the following address:"
+msgstr "Pour remettre à zéro votre mot de passe, visitez l'adresse suivante :"
+
+#: inc/modules/users-login/plugins/sessions-control.php:73
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Remise à zéro du mot de passe"
+
+#: inc/modules/users-login/plugins/sessions-control.php:101
+msgid "The email could not be sent."
+msgstr "Votre message n’a pas pu être envoyé."
+
+#: inc/modules/users-login/plugins/sessions-control.php:101
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr "Possible raison : votre hébergeur a désactivé la fonction mail()."
+
+#: inc/modules/users-login/plugins/sessions-control.php:122
+#: inc/modules/users-login/plugins/sessions-control.php:132
+msgid "Password has not been reset and email has not been sent."
+msgstr ""
+"Le mot de passe n’a pas pu être réinitialisé et aucun e-mail n’a été envoyé."
+
+#: inc/modules/users-login/plugins/sessions-control.php:137
+msgid "Password has been reset and email has been sent."
+msgstr "Le mot de passe a été réinitialisé et un e-mail envoyé."
+
+#: inc/modules/users-login/plugins/sessions-control.php:152
+msgid "Reset password"
+msgstr "Renvoyer un mot de passe"
+
+#: inc/modules/users-login/plugins/sessions-control.php:203
+msgctxt "sessions column width in \"em\""
+msgid "13"
+msgstr "13"
+
+#: inc/modules/users-login/plugins/sessions-control.php:229
+#: inc/modules/users-login/plugins/sessions-control.php:306
+msgid "You are only logged in at this location."
+msgstr "Vous n’êtes connecté qu’à cet endroit."
+
+#: inc/modules/users-login/plugins/sessions-control.php:230
+#: inc/modules/users-login/plugins/sessions-control.php:294
+msgid "Disconnected"
+msgstr "Déconnecté"
+
+#: inc/modules/users-login/plugins/sessions-control.php:231
+msgid "Destroy sessions"
+msgstr "Détruire les sessions"
+
+#: inc/modules/users-login/plugins/sessions-control.php:252
+msgid "Destroy all sessions"
+msgstr "Détruire toutes les sessions"
+
+#: inc/modules/users-login/plugins/sessions-control.php:267
+msgid "Sessions"
+msgstr "Sessions"
+
+#: inc/modules/users-login/plugins/sessions-control.php:309
+msgid "Destroy other sessions"
+msgstr "Détruire les autres sessions"
+
+#: inc/modules/users-login/plugins/sessions-control.php:310
+#, php-format
+msgid "You have %s sessions opened."
+msgstr "Vous avez %s sessions ouvertes."
+
+#: inc/modules/users-login/plugins/sessions-control.php:314
+msgid "Destroy session"
+msgid_plural "Destroy all sessions"
+msgstr[0] "Détruire la session"
+msgstr[1] "Détruire les sessions"
+
+#: inc/modules/users-login/plugins/sessions-control.php:315
+#, php-format
+msgid "%s session opened"
+msgid_plural "%s sessions opened"
+msgstr[0] "%s session ouverte"
+msgstr[1] "%s sessions ouvertes"
+
+#: inc/modules/users-login/plugins/sessions-control.php:442
+#: inc/modules/users-login/plugins/sessions-control.php:511
+msgid "Error: wrong user."
+msgstr "Erreur : utilisateur incorrect."
+
+#: inc/modules/users-login/plugins/sessions-control.php:448
+#: inc/modules/users-login/plugins/sessions-control.php:531
+msgid "Selected users have been logged out."
+msgstr "Les utilisateurs sélectionnés ont été déconnectés."
+
+#: inc/modules/users-login/plugins/sessions-control.php:460
+#: inc/modules/users-login/plugins/sessions-control.php:533
+msgid "You are now logged out everywhere else."
+msgstr "Vous êtes maintenant déconnecté de partout ailleurs."
+
+#: inc/modules/users-login/plugins/sessions-control.php:462
+#: inc/modules/users-login/plugins/sessions-control.php:535
+#, php-format
+msgid "%s has been logged out."
+msgstr "%s a été déconnecté."
+
+#: inc/modules/users-login/plugins/sessions-control.php:470
+#: inc/modules/users-login/plugins/sessions-control.php:571
+msgid ""
+"You are now logged out everywhere else and all other users have been logged "
+"out."
+msgstr ""
+"Vous êtes maintenant déconnecté de partout ailleurs et tous les autres "
+"utilisateurs ont été déconnectés."
+
+#: inc/modules/users-login/plugins/sessions-control.php:496
+#: inc/modules/users-login/plugins/sessions-control.php:550
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Désolé, vous n’avez pas l’autorisation d’accéder à cette page."
+
+#: inc/modules/users-login/plugins/strong-passwords.php:82
+msgctxt "password strength"
+msgid "Very weak"
+msgstr "Très faible"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:83
+msgctxt "password strength"
+msgid "Weak"
+msgstr "Faible"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:84
+msgctxt "password strength"
+msgid "Medium"
+msgstr "Correct"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:85
+msgctxt "password strength"
+msgid "Strong"
+msgstr "Fort"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:86
+msgctxt "password mismatch"
+msgid "Mismatch"
+msgstr "Non concordance"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:93
+msgid "Your new password has not been saved."
+msgstr "Votre nouveau mot de passe n’a pas été sauvegardé."
+
+#: inc/modules/users-login/plugins/strong-passwords.php:94
+msgid "Show"
+msgstr "Montrer"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:95
+#: inc/modules/users-login/plugins/strong-passwords.php:176
+msgid "Hide"
+msgstr "Cacher"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:96
+#: inc/modules/users-login/plugins/strong-passwords.php:179
+msgid "Cancel"
+msgstr "Annuler"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:97
+msgid "Show password"
+msgstr "Montrer le mot de passe"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:98
+#: inc/modules/users-login/plugins/strong-passwords.php:174
+msgid "Hide password"
+msgstr "Cacher le mot de passe"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:163
+msgid "Account Management"
+msgstr "Gestion du compte"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:166
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:169
+msgid "Generate Password"
+msgstr "Générer un mot de passe"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:178
+msgid "Cancel password change"
+msgstr "Annuler le changement de mot de passe"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:185
+msgid "You must choose a strong password."
+msgstr "Vous devez choisir un mot de passe fort."
+
+#: inc/modules/users-login/plugins/strong-passwords.php:189
+msgid "Repeat New Password"
+msgstr "Répétez le nouveau mot de passe"
+
+#: inc/modules/users-login/plugins/strong-passwords.php:192
+msgid "Type your new password again."
+msgstr "Entrez encore votre nouveau de passe."
+
+#: inc/modules/users-login/plugins/strong-passwords.php:273
+msgid "<strong>ERROR</strong>: Please enter a strong password."
+msgstr "<strong>ERREUR</strong> : Merci d’entrer un mot de passe fort."
+
+#. Translators: Plugin Name of the plugin/theme
+#: secupress-pro.php:143
+msgid "SecuPress Pro — WordPress Security"
+msgstr "SecuPress Pro — Sécurité WordPress"
+
+#. Translators: Description of the plugin/theme
+#: secupress-pro.php:145
+msgid "More than a plugin, the guarantee of a protected website by experts."
+msgstr "Plus qu’une extension, une garantie d'un site protégé par des experts."
+
+#, php-format
+#~ msgid ""
+#~ "Slow down, you move too fast.<br/>Please wait a while before opening a "
+#~ "new page or your IP address <em>%1$s</em> will be blocked for %2$d "
+#~ "minutes."
+#~ msgstr ""
+#~ "Doucement, vous allez trop vite.<br/>Merci de patienter un peu avant "
+#~ "d’ouvrir une nouvelle page ou votre adresse IP <em>%1$s</em> sera bloquée "
+#~ "pendant %2$d minutes."
+
+#~ msgid ""
+#~ "The module GeoIP Management has not been activated because the file %s "
+#~ "cannot be read."
+#~ msgstr ""
+#~ "Le module Gestion GeoIP n’a pas pu être activé car le fichier %s ne peut "
+#~ "pas être lu."
+
+#~ msgid "Page Access Security"
+#~ msgstr "Sécurité d’accès aux pages"
+
+#~ msgid ""
+#~ "For security reasons, you need to enter the password of this account (%s) "
+#~ "again to access this page.<br/>Once done, you will have <b>only 5 "
+#~ "minutes</b>, then you will have to enter it again."
+#~ msgstr ""
+#~ "Pour des raisons de sécurité, vous aurez besoin d&rsquo;entrer le mot de "
+#~ "passe de ce compte (%s) de nouveau pour accéder à cette page.<br/>Une "
+#~ "fois fait, vous aurez <b>5 minutes</b>, puis vous devrez le redonner "
+#~ "encore."
+
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#~ msgid "Continue"
+#~ msgstr "Continuer"
+
+#~ msgid "Something went wrong."
+#~ msgstr "Quelque chose s’est mal déroulé."
+
+#~ msgid "You can't log in right now."
+#~ msgstr "Vous ne pouvez pas vous connecter pour le moment."
+
+#~ msgid ""
+#~ "For security reasons, the login page is disabled for the moment, please "
+#~ "come back later."
+#~ msgstr ""
+#~ "Pour des raisons de sécurité, la page de connexion est désactivée pour le "
+#~ "moment, merci de revenir plus tard."
+
+#~ msgid ""
+#~ "Can't process because this username or email belongs to a registered "
+#~ "user. If it's you, %s."
+#~ msgstr ""
+#~ "Impossible de continuer car cet utilisateur ou e-mail appartient à un "
+#~ "autre utilisateur. Si c’est vous, %s."
+
+#~ msgid "please log in"
+#~ msgstr "merci de vous connecter"
+
+#~ msgid "You may want to copy your message before logging in:"
+#~ msgstr ""
+#~ "Vous voulez peut-être une copie de votre message avant de vous connecter :"
+
+#~ msgid ""
+#~ "More than a plugin, the guarantee of a protected website by experts. To "
+#~ "get started to protect your whole website 1) Activate the plugin 2) Enter "
+#~ "your licence key and email address in the Settings page 3) Configure all "
+#~ "the new unlocked features."
+#~ msgstr ""
+#~ "Plus qu’un plugin, l’assurance d’un site protégé par des experts. Pour "
+#~ "vous lancer et assurer la protection totale de votre site 1) Activer le "
+#~ "plugin 2) entrer votre mail et votre clé API sur la page des Réglages 3) "
+#~ "Configurer l’ensemble des fonctionnalités débloquée."
+
+#~ msgid "Notifications by email require at least two addresses."
+#~ msgstr "Les notifications par e-mail nécessitent au moins deux adresses."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: You are already connected. You may need to <a "
+#~ "href=\"%s\">request a remote disconnection</a> by e-mail."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Vous êtes déjà connecté(e). Vous pouvez <a href="
+#~ "\"%s\">demander une déconnexion distante</a> par e-mail."
+
+#~ msgid "[%s] Disconnection request"
+#~ msgstr "[%s] Demande de déconnexion"
+
+#~ msgid ""
+#~ "Hello %1$s,<br/>Someone just asked a total disconnection of your account "
+#~ "%2$s on %3$s to log in again.<br/>If it's not you, just ignore this email."
+#~ "<br/><br/>If you asked for this, just follow <a href=\"%4$s\">the "
+#~ "disconnection link</a> (%4$s)."
+#~ msgstr ""
+#~ "Bonjour %1$s,<br/>Quelqu’un vient de demander une déconnexion de votre "
+#~ "compte %2$s sur %3$s pour vous reconnecter.<br/>Si ce n’est pas vous, "
+#~ "ignorez simplement cet e-mail.<br/><br/>Si vous l’avez demandée, suivez "
+#~ "<a href=\"%4$s\">ce lien de déconnexion</a> (%4$s)."
+
+#~ msgid ""
+#~ "A link has been sent to your recovery email address, check your inbox and "
+#~ "click on the provided link to disconnect you from others devices before "
+#~ "log in here."
+#~ msgstr ""
+#~ "Un lien a été envoyé sur votre adresse de récupération, vérifiez votre "
+#~ "boite de réception et cliquez sur le lien indiqué pour vous déconnecter "
+#~ "des autres appareils avant de vous connecter ici."
+
+#~ msgid ""
+#~ "A link has been sent to your account email address, check your inbox and "
+#~ "click on the provided link to disconnect you from others devices before "
+#~ "log in here."
+#~ msgstr ""
+#~ "Un lien a été envoyé sur l’adresse e-mail de votre compte, vérifiez votre "
+#~ "boite de réception et cliquez sur le lien indiqué pour vous déconnecter "
+#~ "des autres appareils avant de vous connecter ici."
+
+#~ msgid ""
+#~ "An error has been returned, please try to log in again. Sorry for the "
+#~ "inconvenience"
+#~ msgstr ""
+#~ "Une erreur est survenue, merci de tenter de vous connecter de nouveau. "
+#~ "Désolé pour la gêne occasionnée."
+
+#~ msgid "Please activate %s first."
+#~ msgstr "Merci d’activer %s en premier."
+
+#~ msgid "%s is missing"
+#~ msgstr "%s est manquant"
+
+#~ msgid "Install %s now"
+#~ msgstr "Installer %s maintenant."
+
+#~ msgid "%1$s requires %2$s."
+#~ msgstr "%1$s a besoin de %2$s."
+
+#~ msgid ""
+#~ "An unexpected error occurred. Something may be wrong with %s or this "
+#~ "server&#8217;s configuration. If you continue to have problems, please "
+#~ "contact our support team."
+#~ msgstr ""
+#~ "Une erreur inattendue s’est produite. Quelque chose semble ne pas "
+#~ "fonctionner avec %s ou la configuration de ce serveur. Si vous continuez "
+#~ "à rencontrer des problèmes, merci de contacter notre équipe du support."
+
+#~ msgid ""
+#~ "<strong>%1$s</strong> requires %2$s minimum, your website is actually "
+#~ "running version %3$s."
+#~ msgstr ""
+#~ "<strong>%1$s</strong> requiert %2$s minimum, votre site utilise "
+#~ "actuellement la version %3$s."
+
+#~ msgid "Toggle group check"
+#~ msgstr "Inverser les coches"
+
+#~ msgid "<a href=\"%s\" target=\"_blank\">More information</a>"
+#~ msgstr "<a href=\"%s\" target=\"_blank\">Plus d’informations</a>"
+
+#~ msgid ""
+#~ "You are already connected. You may need to <a href=\"%s\">request a "
+#~ "remote disconnection</a> by e-mail."
+#~ msgstr ""
+#~ "Vous êtes déjà connecté(e). Vous pouvez <a href=\"%s\">demander une "
+#~ "déconnexion distante</a> par e-mail."
+
+#~ msgid ""
+#~ "When you tag a file as \"Not a malware\", you will add this file in a "
+#~ "whitelist in a smart way. Also it will send this information on "
+#~ "secupress' server."
+#~ msgstr ""
+#~ "Quand vous marquez un fichier comme \"N’est pas dangereux\", vous ajoutez "
+#~ "ce fichier dans une liste blanche d’une façon intelligente. Aussi vous "
+#~ "envoyez cette information sur notre serveur."
+
+#~ msgid "Error while loading %s"
+#~ msgstr "Erreur de chargement de %s"
+
+#~ msgid "Possible malware found: <em>%s</em>."
+#~ msgstr "Possible virus trouvé : <em>%s</em>"
+
+#~ msgid "%s: "
+#~ msgstr "%s :"
+
+#~ msgid ""
+#~ "<strong>%1$s %2$s</strong> is known to contain these vulnerabilities: "
+#~ "%3$s."
+#~ msgstr ""
+#~ "<strong>%1$s %2$s</strong> est connu pour contenir ces vulnérabilités : "
+#~ "%3$s."
+
+#~ msgid "the database and the files"
+#~ msgstr "la base de données et les fichiers"
+
+#~ msgid ""
+#~ "We invite you to <a href=\"%1$s\">Update</a> this plugin to in version "
+#~ "%2$s."
+#~ msgstr ""
+#~ "Nous vous invitons à <a href=\"%1$s\">mettre à jour</a> ce plugin en "
+#~ "version %2$s."
+
+#~ msgid ""
+#~ "We invite you to Update this plugin <em>(Automatic update is unavailable "
+#~ "for this plugin.)</em>."
+#~ msgstr ""
+#~ "Nous vous invitons à mettre à jour ce plugin <em>(La mise à jour "
+#~ "automatique n’est pas disponible)</em>."
+
+#~ msgid ""
+#~ "We invite you to <a href=\"%s\">Deactivate</a> this plugin, then delete "
+#~ "it."
+#~ msgstr ""
+#~ "Nous vous invitons à <a href=\"%1$s\">désactiver</a> ce plugin, puis de "
+#~ "le supprimer."
+
+#~ msgid ""
+#~ "We invite you to <a href=\"%s\">Delete</a> this plugin, no patch has been "
+#~ "made by its author."
+#~ msgstr ""
+#~ "Nous vous invitons à <a href=\"%1$s\">supprimer</a> ce plugin, aucun "
+#~ "correctif n’a été apporté par son auteur."
+
+#~ msgid "License email: %s"
+#~ msgstr "E-mail de la licence : %s"
+
+#~ msgid "License key: %s"
+#~ msgstr "Clé de licence : %s"
+
+#~ msgid "Version of SecuPress Pro: %1$s (requires SecuPress Free %2$s)"
+#~ msgstr "Version de SecuPress Pro: %1$s (requiert SecuPress Free %2$s)"
+
+#~ msgid ""
+#~ "Something prevented your message to be sent. Please send it manually to "
+#~ "%s. Thank you."
+#~ msgstr ""
+#~ "Quelque chose a empêché votre message d’être envoyé. Merci de l’envoyer "
+#~ "manuellement à %s."
+
+#~ msgctxt "User full name. 1: first name, 2: last name"
+#~ msgid "%1$s %2$s"
+#~ msgstr "%1$s %2$s"
+
+#~ msgid "No backups found yet, do one?"
+#~ msgstr "Aucune sauvegarde trouvée, en créer une ?"
+
+#~ msgid "Delete all backups"
+#~ msgstr "Supprimer toutes les sauvegardes"
+
+#~ msgid "DataBase tables"
+#~ msgstr "Tables de la base de données"
+
+#~ msgid "Backup my database"
+#~ msgstr "Sauvegarder ma base de données"
+
+#~ msgid "Backup my files"
+#~ msgstr "Sauvegarder mes fichiers"
+
+#~ msgctxt "scheduled backups"
+#~ msgid "None so far."
+#~ msgstr "Aucune pour le moment."
+
+#~ msgctxt "scheduled scans"
+#~ msgid "None so far."
+#~ msgstr "Aucun pour le moment."
+
+#~ msgctxt "scheduled file monitoring"
+#~ msgid "None so far."
+#~ msgstr "Aucun pour le moment."
+
+#~ msgid " Possible malware found:<em>%s</em>"
+#~ msgstr " Potentiel virus trouvé : <em>%s</em>"
+
+#~ msgid ""
+#~ "We invite you to update this plugin <em>(Automatic update is "
+#~ "unavailable)</em>."
+#~ msgstr ""
+#~ "Nous vous invitons à mettre à jour ce plugin <em>(La mise à jour "
+#~ "automatique n’est pas disponible)</em>."
+
+#~ msgid "Update is unavailable for this plugin."
+#~ msgstr "Mise à jour indisponible pour ce plugin."
+
+#~ msgid ""
+#~ "We invite you to update this theme <em>(Automatic update is unavailable)</"
+#~ "em>."
+#~ msgstr ""
+#~ "Nous vous invitons à mettre à jour ce thème <em>(La mise à jour "
+#~ "automatique n’est pas disponible)</em>."
+
+#~ msgid ""
+#~ "The following file is not from WordPress core and may contain malware:"
+#~ msgid_plural ""
+#~ "The following files is not from WordPress core and could contain malware:"
+#~ msgstr[0] ""
+#~ "Le fichier suivant ne fait pas partie du core de WordPress et semble "
+#~ "contenir un virus :"
+#~ msgstr[1] ""
+#~ "Les fichiers suivants ne font pas partie du core de WordPress et semblent "
+#~ "contenir un virus :"
+
+#~ msgid "[%s] Operation Succeeded"
+#~ msgstr "[%s] Opération effectuée avec succès"
+
+#~ msgid "[%s] Operation Failed"
+#~ msgstr "[%s] Opération échouée"
+
+#~ msgid "[%s] Disconnection Request"
+#~ msgstr "[%s] Demande de déconnexion"
+
+#~ msgid ""
+#~ "Hello %1$s,<br>Someone just asked a total disconnection of your account "
+#~ "%2$s on %3$s to log in again."
+#~ msgstr ""
+#~ "Bonjour %1$s,<br/>Quelqu’un vient de demander une déconnexion de votre "
+#~ "compte %2$s sur %3$s pour vous reconnecter."
+
+#~ msgid "If it's not you, just ignore this email."
+#~ msgstr "Si ce n’est pas vous, ignorer juste cet e-mail."
+
+#~ msgid "Check your email containing the confirmation link."
+#~ msgstr "Vérifiez votre boite e-mail pour y trouver le lien de confirmation."
+
+#~ msgid ""
+#~ "We invite you to Update this plugin <em>(Automatic update is "
+#~ "unavailable)</em>."
+#~ msgstr ""
+#~ "Nous vous invitons à mettre à jour ce plugin <em>(La mise à jour "
+#~ "automatique n’est pas disponible)</em>."
+
+#~ msgid ""
+#~ "We invite you to Update this theme <em>(Automatic update is unavailable)</"
+#~ "em>."
+#~ msgstr ""
+#~ "Nous vous invitons à mettre à jour ce thème <em>(La mise à jour "
+#~ "automatique n’est pas disponible)</em>."
+
+#~ msgid "If it's not you, just ignore this e-mail."
+#~ msgstr "Si ce n’est pas vous, ignorez simplement ce mail."
+
+#~ msgid "Search for malicious files!!"
+#~ msgstr "Rechercher les fichiers malicieux!!"
