@@ -239,8 +239,7 @@ abstract class Base_App {
 	 * @access public
 	 */
 	public function is_connected() {
-		return true;
-		//return (bool) $this->get( 'access_token' );
+		return (bool) $this->get( 'access_token' );
 	}
 
 	/**
@@ -349,25 +348,11 @@ abstract class Base_App {
 			$headers['X-Elementor-Signature'] = hash_hmac( 'sha256', wp_json_encode( $request_body, JSON_NUMERIC_CHECK ), $this->get( 'access_token_secret' ) );
 		}
 
-	// NF ++
-	if ($action === 'get_template_content') {
-		$templateExists = false;
-		if (file_exists(ELEMENTOR_PATH . 'templates/' . $request_body['id'] . '.json')) {
-			$templateExists = true;
-			$url = ELEMENTOR_URL . 'templates/' . $request_body['id'] . '.json';
-		}
-	}
-	if ($templateExists) {
-		$response = wp_remote_get( $url, [
-		'timeout' => 40,
-		'sslverify' => false,
-	] );
-	} 
-	// NF end
-		
-		// NF ++
-		
-		// NF end
+		$response = wp_remote_post( $this->get_api_url() . '/' . $action, [
+			'body' => $request_body,
+			'headers' => $headers,
+			'timeout' => 25,
+		] );
 
 		if ( is_wp_error( $response ) ) {
 			wp_die( $response, [
@@ -398,14 +383,13 @@ abstract class Base_App {
 			// In case $as_array = true.
 			$body = (object) $body;
 
-			$message = 'Template file not exist in template directory. please wait update..';
+			$message = isset( $body->message ) ? $body->message : wp_remote_retrieve_response_message( $response );
 			$code = isset( $body->code ) ? $body->code : $response_code;
 
 			if ( 401 === $code ) {
-		/* NF --
-				//$this->delete();
-				//$this->action_authorize();
-		NF end */			}
+				$this->delete();
+				$this->action_authorize();
+			}
 
 			return new \WP_Error( $code, $message );
 		}

@@ -1,1 +1,531 @@
-[31-Jan-2021 18:56:18 UTC] WordPress database error Unknown column 'rjBYk1Krcsaasy_' in 'field list' for query SELECT rjBYk1Krcsaasy_
+[09-Feb-2021 15:14:58 UTC] WordPress database error Unknown column 'b8vse_' in 'field list' for query SELECT b8vse_
+[09-Feb-2021 15:25:16 UTC] PHP Warning:  A non-numeric value encountered in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Themesettingscss.php on line 357
+[09-Feb-2021 17:47:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Themesettingscss.php on line 357
+[09-Feb-2021 17:50:37 UTC] PHP Warning:  A non-numeric value encountered in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Themesettingscss.php on line 357
+[10-Feb-2021 05:34:29 UTC] PHP Warning:  A non-numeric value encountered in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Themesettingscss.php on line 357
+[10-Feb-2021 06:11:38 UTC] PHP Warning:  A non-numeric value encountered in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Themesettingscss.php on line 357
+[10-Feb-2021 06:12:03 UTC] PHP Warning:  A non-numeric value encountered in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Themesettingscss.php on line 357
+[10-Feb-2021 06:12:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Themesettingscss.php on line 357
+[10-Feb-2021 06:21:01 UTC] PHP Fatal error:  Uncaught Error: Class 'ActionScheduler_OptionLock' not found in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Lock.php:58
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(29): ActionScheduler_Lock::instance()
+#1 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(103): ActionScheduler::lock()
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): ActionScheduler_QueueRunner->maybe_dispatch_async_request('')
+#3 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(1, Array)
+#4 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/mediccli/public_html/wp-includes/load.php(1052): do_action('shutdown')
+#6 [internal function]: shutdown_action_hook()
+#7 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Lock.php on line 58
+[13-Feb-2021 07:12:25 UTC] Error checking in buffer: The buffer you checked in was not checked out
+[13-Feb-2021 07:36:06 UTC] Error checking in buffer: The buffer you checked in was not checked out
+[13-Feb-2021 11:55:59 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/opentable/opentable.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[13-Feb-2021 11:55:59 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../vendor_prefixed/psr/container/src/ContainerInterface.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[13-Feb-2021 11:55:59 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/deprecated/ActionScheduler_Store_Deprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 122
+[13-Feb-2021 11:55:59 UTC] PHP Fatal error:  Uncaught Error: Interface 'YoastSEO_Vendor\Psr\Container\ContainerInterface' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/ContainerInterface.php:23
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(444): include()
+#1 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/mediccli/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('YoastSEO_Vendor...')
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/ResettableContainerInterface.php(20): spl_autoload_call('YoastSEO_Vendor...')
+#4 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(444): include('/home/mediccli/...')
+#5 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(322): Compo in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/ContainerInterface.php on line 23
+[13-Feb-2021 11:55:59 UTC] PHP Fatal error:  Uncaught Error: Class 'ActionScheduler_Store_Deprecated' not found in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:7
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(122): include()
+#1 [internal function]: ActionScheduler::autoload('ActionScheduler...')
+#2 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(25): spl_autoload_call('ActionScheduler...')
+#3 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(145): ActionScheduler::store()
+#4 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(44): ActionScheduler::init('/home/mediccli/...')
+#5 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Vers in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 7
+[13-Feb-2021 11:55:59 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/repeat-visitor/repeat-visitor.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[13-Feb-2021 11:55:59 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../vendor_prefixed/psr/container/src/ContainerInterface.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[13-Feb-2021 11:55:59 UTC] PHP Fatal error:  Uncaught Error: Interface 'YoastSEO_Vendor\Psr\Container\ContainerInterface' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/ContainerInterface.php:23
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(444): include()
+#1 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/mediccli/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('YoastSEO_Vendor...')
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/ResettableContainerInterface.php(20): spl_autoload_call('YoastSEO_Vendor...')
+#4 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(444): include('/home/mediccli/...')
+#5 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(322): Compo in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/ContainerInterface.php on line 23
+[13-Feb-2021 11:55:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Services/ExtendRestApi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[13-Feb-2021 11:55:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-device-detection/src/class-user-agent-info.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[13-Feb-2021 11:56:21 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/builder/elements/Search.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/builder/Elements.php on line 55
+[13-Feb-2021 12:25:17 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/modules/sitemaps/sitemap-stylist.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/modules/sitemaps/sitemaps.php on line 37
+[13-Feb-2021 12:25:17 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/markdown/markdown.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[13-Feb-2021 12:25:17 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/modules/sitemaps/sitemap-librarian.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/modules/sitemaps/sitemaps.php on line 38
+[13-Feb-2021 12:25:17 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/mailchimp-for-wp//includes/api/class-api-v3.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/mailchimp-for-wp/mailchimp-for-wp.php on line 62
+[13-Feb-2021 12:25:17 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Import.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/functions.php on line 65
+[14-Feb-2021 04:58:54 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/shortcodes/blog.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 419
+[14-Feb-2021 05:01:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/elementor/modules/dynamic-tags/module.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+[14-Feb-2021 05:01:25 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/simple-payments/simple-payments.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[14-Feb-2021 05:01:25 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/integrations/visual-composer/maps/instagram.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 345
+[14-Feb-2021 05:01:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/elementor/modules/dynamic-tags/module.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+[14-Feb-2021 05:01:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/elementor/modules/dynamic-tags/module.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+[14-Feb-2021 06:03:40 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/builder/Header.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/builder/Builder.php on line 58
+[14-Feb-2021 06:03:40 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/themes/woodmart/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-settings.php on line 525
+[14-Feb-2021 06:03:52 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../premium/classes/premium-redirect-endpoint.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 06:03:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WPSEO_Premium_Redirect_EndPoint' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/premium.php:94
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/wp-seo-premium.php(114): WPSEO_Premium->__construct()
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): wpseo_premium_init('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(420): do_action('plugins_loaded')
+#5 /home/mediccli/public_html/wp-config.php(90): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/premium.php on line 94
+[14-Feb-2021 06:03:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-includes/block-patterns/two-buttons.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-includes/block-patterns.php on line 37
+[14-Feb-2021 06:03:52 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../premium/classes/premium-redirect-endpoint.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 06:03:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WPSEO_Premium_Redirect_EndPoint' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/premium.php:94
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/wp-seo-premium.php(114): WPSEO_Premium->__construct()
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): wpseo_premium_init('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(420): do_action('plugins_loaded')
+#5 /home/mediccli/public_html/wp-config.php(90): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/premium.php on line 94
+[14-Feb-2021 06:05:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/imagify/inc/3rd-party/wp-real-media-library.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/imagify/inc/3rd-party/3rd-party.php on line 14
+[14-Feb-2021 06:05:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/imagify/inc/3rd-party/wp-real-media-library.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/imagify/inc/3rd-party/3rd-party.php on line 14
+[14-Feb-2021 06:05:22 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/button/button.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[14-Feb-2021 06:05:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/modules/class-posts.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[14-Feb-2021 06:05:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Customers/DataStore.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[14-Feb-2021 06:05:45 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../admin/class-admin-asset-seo-location.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 06:05:45 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../premium/src/integrations/watchers/premium-option-wpseo-watcher.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 06:05:46 UTC] PHP Fatal error:  Uncaught Error: Class 'WPSEO_Admin_Asset_SEO_Location' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/class-admin-asset-manager.php:189
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/class-admin-asset-manager.php(45): WPSEO_Admin_Asset_Manager::create_default_location()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/wordpress/wrapper.php(42): WPSEO_Admin_Asset_Manager->__construct()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(548): Yoast\WP\SEO\WordPress\Wrapper::get_admin_asset_manager()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(2230): Yoast\WP\SEO\Generated\Cached_Container->getWPSEOAdminAssetManagerService()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getSt in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/class-admin-asset-manager.php on line 189
+[14-Feb-2021 06:05:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Watchers\Premium_Option_Wpseo_Watcher' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php:228
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(557): do_action('init')
+#5 /home/mediccli/public_html/wp-config.php(90): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php on line 228
+[14-Feb-2021 06:05:46 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/integrations/front-end/comment-link-fixer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 06:05:46 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../admin/class-admin-asset-seo-location.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 06:05:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Front_End\Comment_Link_Fixer' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php:228
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(557): do_action('init')
+#5 /home/mediccli/public_html/wp-config.php(90): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php on line 228
+[14-Feb-2021 06:05:46 UTC] PHP Fatal error:  Uncaught Error: Class 'WPSEO_Admin_Asset_SEO_Location' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/class-admin-asset-manager.php:189
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/class-admin-asset-manager.php(45): WPSEO_Admin_Asset_Manager::create_default_location()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/wordpress/wrapper.php(42): WPSEO_Admin_Asset_Manager->__construct()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(548): Yoast\WP\SEO\WordPress\Wrapper::get_admin_asset_manager()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(2230): Yoast\WP\SEO\Generated\Cached_Container->getWPSEOAdminAssetManagerService()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getSt in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/class-admin-asset-manager.php on line 189
+[14-Feb-2021 06:25:53 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/send-a-message/send-a-message.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[14-Feb-2021 06:25:53 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/imagify/vendor/composer/../../inc/classes/class-imagify-settings.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/imagify/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 06:25:53 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/contact-form-7/modules/akismet.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/contact-form-7/load.php on line 68
+[14-Feb-2021 06:25:53 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/helpers/taxonomy-helper.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 06:25:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/options/controls/typography/class-typography.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 06:25:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Imagify_Settings' not found in /home/mediccli/public_html/wp-content/plugins/imagify/inc/classes/class-imagify-plugin.php:62
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/imagify/imagify.php(59): Imagify_Plugin->init()
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): _imagify_init('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(420): do_action('plugins_loaded')
+#5 /home/mediccli/public_html/wp-config.php(90): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/imagify/inc/classes/class-imagify-plugin.php on line 62
+[14-Feb-2021 06:25:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/modules/nav-menu-images/nav-menu-images.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 06:25:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Helpers\Taxonomy_Helper' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:2054
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(950): Yoast\WP\SEO\Generated\Cached_Container->getTaxonomyHelperService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(811): Yoast\WP\SEO\Generated\Cached_Container->getIndexableTermBuilderService()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SEO\Generated\Cached_Container->getIndexableBuilderService()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(917): Yoast\WP\SEO\Generated\Cached_Container->getIndexableRepositoryService()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(806): Yoast\WP\SEO\Generated\Ca in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 2054
+[14-Feb-2021 06:25:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/modules/seo-tools/jetpack-seo-utils.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/modules/module-extras.php on line 78
+[14-Feb-2021 06:27:52 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/minify/class-wp-optimize-minify.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/wp-optimize.php on line 174
+[14-Feb-2021 06:27:52 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/minify/class-wp-optimize-minify.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/wp-optimize.php on line 174
+[14-Feb-2021 06:27:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/builder/Builder.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 06:27:52 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/contact-form-7/modules/flamingo.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/contact-form-7/load.php on line 68
+[14-Feb-2021 06:27:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Optimize_Minify' not found in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/wp-optimize.php:176
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/wp-optimize.php(466): WP_Optimize->get_minify()
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): WP_Optimize->plugins_loaded('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(420): do_action('plugins_loaded')
+#5 /home/mediccli/public_html/wp-config.php(90): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/wp-optimize.php on line 176
+[14-Feb-2021 06:27:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Optimize_Minify' not found in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/wp-optimize.php:176
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/wp-optimize.php(466): WP_Optimize->get_minify()
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): WP_Optimize->plugins_loaded('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(420): do_action('plugins_loaded')
+#5 /home/mediccli/public_html/wp-config.php(90): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/wp-optimize.php on line 176
+[14-Feb-2021 06:27:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/_inc/lib/core-api/wpcom-endpoints/hello.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/_inc/lib/core-api/load-wpcom-endpoints.php on line 26
+[14-Feb-2021 06:28:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-includes/script-loader.php on line 560
+[14-Feb-2021 06:28:14 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/modules/quick-view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 06:28:14 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/modules/quick-view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 06:28:14 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/modules/quick-view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 08:22:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-includes/Requests/Cookie/Jar.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-includes/class-requests.php on line 146
+[14-Feb-2021 08:22:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-includes/Requests/Cookie/Jar.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-includes/class-requests.php on line 146
+[14-Feb-2021 08:22:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-includes/Requests/Cookie/Jar.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-includes/class-requests.php on line 146
+[14-Feb-2021 08:23:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on bool in /home/mediccli/public_html/wp-content/plugins/elementor/modules/usage/module.php:236
+Stack trace:
+#0 /home/mediccli/public_html/wp-includes/class-wp-hook.php(289): Elementor\Modules\Usage\Module->on_before_delete_post(8773)
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/mediccli/public_html/wp-includes/post.php(3038): do_action('before_delete_p...', 8773, Object(WP_Post))
+#4 /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/classes/common/class-secupress-logs.php(256): wp_delete_post(8773, true)
+#5 /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/classes/common/class-secupress-logs.php(915): SecuPress_Logs->delete_log(8773)
+#6 /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/classes/common/class-secupress-logs.php(807): SecuPress_Logs->limit_logs_number()
+ in /home/mediccli/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 236
+[14-Feb-2021 08:23:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on bool in /home/mediccli/public_html/wp-content/plugins/elementor/modules/usage/module.php:236
+Stack trace:
+#0 /home/mediccli/public_html/wp-includes/class-wp-hook.php(289): Elementor\Modules\Usage\Module->on_before_delete_post(8773)
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/mediccli/public_html/wp-includes/post.php(3038): do_action('before_delete_p...', 8773, Object(WP_Post))
+#4 /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/classes/common/class-secupress-logs.php(256): wp_delete_post(8773, true)
+#5 /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/classes/common/class-secupress-logs.php(915): SecuPress_Logs->delete_log(8773)
+#6 /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/classes/common/class-secupress-logs.php(807): SecuPress_Logs->limit_logs_number()
+ in /home/mediccli/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 236
+[14-Feb-2021 08:23:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on bool in /home/mediccli/public_html/wp-content/plugins/elementor/modules/usage/module.php:236
+Stack trace:
+#0 /home/mediccli/public_html/wp-includes/class-wp-hook.php(289): Elementor\Modules\Usage\Module->on_before_delete_post(8780)
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/mediccli/public_html/wp-includes/post.php(3038): do_action('before_delete_p...', 8780, Object(WP_Post))
+#4 /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/classes/common/class-secupress-logs.php(256): wp_delete_post(8780, true)
+#5 /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/classes/common/class-secupress-logs.php(915): SecuPress_Logs->delete_log(8780)
+#6 /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/classes/common/class-secupress-logs.php(807): SecuPress_Logs->limit_logs_number()
+ in /home/mediccli/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 236
+[14-Feb-2021 08:29:53 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/modules/sso.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack.php on line 1962
+[14-Feb-2021 08:55:16 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/secupress-pro/inc/modules/schedules/callbacks.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/secupress-pro/core/core.php on line 158
+[14-Feb-2021 08:55:36 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/integrations/watchers/indexable-homeurl-watcher.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 08:55:36 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/integrations/watchers/indexable-homeurl-watcher.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 08:55:36 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/helpers/options-helper.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 08:55:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Helpers\Options_Helper' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:2110
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress[14-Feb-2021 08:55:36 UTC] PHP Fatal error:  Trait 'Yoast\WP\SEO\Conditionals\No_Conditionals' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/initializers/disable-core-sitemaps.php on line 12
+[14-Feb-2021 08:55:36 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/helpers/options-helper.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 08:55:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Helpers\Options_Helper' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:2110
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getDisableCoreSitemapsService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(186): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\In...')
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(131): Yoast\WP\SEO\Loader->load_initializers()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/lib/abstract-main.php(43): Yoast\WP\SEO\Loader->load()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/functions.php(36): Yoast\WP\Lib\Abstract_Main->load()
+#5 /home/mediccli/public_html/wp-content/plugins/wordp in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 2110
+[14-Feb-2021 08:55:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Helpers\Options_Helper' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:2110
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getDisableCoreSitemapsService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(186): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\In...')
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(131): Yoast\WP\SEO\Loader->load_initializers()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/lib/abstract-main.php(43): Yoast\WP\SEO\Loader->load()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/functions.php(36): Yoast\WP\Lib\Abstract_Main->load()
+#5 /home/mediccli/public_html/wp-content/plugins/wordp in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 2110
+[14-Feb-2021 08:55:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Watchers\Indexable_HomeUrl_Watcher' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php:228
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(557): do_action('init')
+#5 /home/mediccli/public_html/wp-config.php(91): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php on line 228
+[14-Feb-2021 08:55:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Watchers\Indexable_HomeUrl_Watcher' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php:228
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(557): do_action('init')
+#5 /home/mediccli/public_html/wp-config.php(91): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php on line 228
+[14-Feb-2021 08:56:44 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-includes/pluggable.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-settings.php on line 402
+[14-Feb-2021 08:56:44 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/woocommerce/includes/admin/plugin-updates/class-wc-plugin-updates.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 2218
+[14-Feb-2021 08:56:44 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../premium/src/actions/prominent-words/content-action.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 08:56:44 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-coupon-data-store-cpt.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 434
+[14-Feb-2021 08:56:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Front_End\Backwards_Compatibility' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php:228
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(557): do_action('init')
+#5 /home/mediccli/public_html/wp-config.php(91): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php on line 228
+[14-Feb-2021 08:56:44 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Plugin_Updates' not found in /home/mediccli/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php:2222
+Stack trace:
+#0 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): wc_enable_wc_plugin_headers(Array)
+#1 /home/mediccli/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /home/mediccli/public_html/wp-includes/functions.php(6134): apply_filters('extra_plugin_he...', Array)
+#3 /home/mediccli/public_html/wp-admin/includes/plugin.php(86): get_file_data('/home/mediccli/...', Array, 'plugin')
+#4 /home/mediccli/public_html/wp-admin/includes/plugin.php(341): get_plugin_data('/home/mediccli/...', false, false)
+#5 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/includes/wp-optimize-database-information.php(560): get_plugins()
+#6 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/cache/class-wpo-detect-cache-plugins.php(88): WP_Optimize_Database_Information->get_plugin_status('w3-total-cache')
+#7 /h in /home/mediccli/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 2222
+[14-Feb-2021 08:56:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Actions\Prominent_Words\Content_Action' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/src/generated/container.php:275
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/src/generated/container.php(445): Yoast\WP\SEO\Premium\Generated\Cached_Container->getContentActionService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Premium\Generated\Cached_Container->getIndexingIntegrationService()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(201): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\In...')
+#3 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): Yoast\WP\SEO\Loader->load_integrations('')
+#4 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /home/med in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/src/generated/container.php on line 275
+[14-Feb-2021 08:56:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Front_End\Backwards_Compatibility' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php:228
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met('Yoast\\WP\\SEO\\In...')
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): Yoast\WP\SEO\Loader->load_integrations('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(557): do_action('init')
+#5 /home/mediccli/public_html/wp-config.php(91): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/loader.php on line 228
+[14-Feb-2021 08:56:45 UTC] WC_Log_Handler_File::get_log_file_path was called incorrectly. This method should not be called before plugins_loaded. Backtrace: WooCommerce->log_errors, WC_Logger->critical, WC_Logger->log, WC_Log_Handler_File->handle, WC_Log_Handler_File->add, WC_Log_Handler_File->should_rotate, WC_Log_Handler_File::get_log_file_path, wc_doing_it_wrong. This message was added in version 3.0.
+[14-Feb-2021 08:56:45 UTC] WC_Log_Handler_File::get_log_file_path was called incorrectly. This method should not be called before plugins_loaded. Backtrace: WooCommerce->log_errors, WC_Logger->critical, WC_Logger->log, WC_Log_Handler_File->handle, WC_Log_Handler_File->add, WC_Log_Handler_File->open, WC_Log_Handler_File::get_log_file_path, wc_doing_it_wrong. This message was added in version 3.0.
+[14-Feb-2021 08:57:15 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-includes/pluggable.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-includes/class-wp-recovery-mode.php on line 181
+[14-Feb-2021 10:01:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Integrations\Blocks\Dynamic_Block' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/classes/blocks/siblings-block.php:13
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(444): include()
+#1 /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/mediccli/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Yoast\\WP\\SEO\\In...')
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/premium.php(104): spl_autoload_call('Yoast\\WP\\SEO\\In...')
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/wp-seo-premium.php(114): WPSEO_Premium->__construct()
+#5 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): wpseo_premium_init('')
+#6 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#7 / in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/classes/blocks/siblings-block.php on line 13
+[14-Feb-2021 10:01:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Builders\Indexable_Term_Builder' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:950
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(811): Yoast\WP\SEO\Generated\Cached_Container->getIndexableTermBuilderService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SEO\Generated\Cached_Container->getIndexableBuilderService()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(917): Yoast\WP\SEO\Generated\Cached_Container->getIndexableRepositoryService()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(806): Yoast\WP\SEO\Generated\Cached_Container->getIndexablePostBuilderService()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SE in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 950
+[14-Feb-2021 10:01:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Builders\Indexable_Term_Builder' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:950
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(811): Yoast\WP\SEO\Generated\Cached_Container->getIndexableTermBuilderService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SEO\Generated\Cached_Container->getIndexableBuilderService()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(917): Yoast\WP\SEO\Generated\Cached_Container->getIndexableRepositoryService()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(806): Yoast\WP\SEO\Generated\Cached_Container->getIndexablePostBuilderService()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SE in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 950
+[14-Feb-2021 10:01:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/litespeed-cache/src/tool.cls.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/litespeed-cache/autoload.php on line 36
+[14-Feb-2021 10:01:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/litespeed-cache/src/tool.cls.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/litespeed-cache/autoload.php on line 36
+[14-Feb-2021 10:01:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/litespeed-cache/src/tool.cls.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/litespeed-cache/autoload.php on line 36
+[14-Feb-2021 16:47:21 UTC] PHP Fatal error:  Uncaught Error: Class 'AmeliaBooking\Infrastructure\WP\Translations\BackendStrings' not found in /home/mediccli/public_html/wp-content/plugins/ameliabooking/src/Infrastructure/WP/config/Menu.php:40
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/ameliabooking/ameliabooking.php(213): AmeliaBooking\Infrastructure\WP\config\Menu->__invoke()
+#1 /home/mediccli/public_html/wp-includes/class-wp-hook.php(287): AmeliaBooking\Plugin::init('')
+#2 /home/mediccli/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/mediccli/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/mediccli/public_html/wp-settings.php(420): do_action('plugins_loaded')
+#5 /home/mediccli/public_html/wp-config.php(91): require_once('/home/mediccli/...')
+#6 /home/mediccli/public_html/wp-load.php(37): require_once('/home/mediccli/...')
+#7 /home/mediccli/public_html/wp-admin/admin-ajax.php(22): require_once('/home/mediccli/...')
+#8 {main}
+  thrown in /home/mediccli/public_html/wp-content/plugins/ameliabooking/src/Infrastructure/WP/config/Menu.php on line 40
+[14-Feb-2021 16:47:21 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-connection/src/class-utils.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[14-Feb-2021 16:47:21 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/_inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-videopress.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/_inc/lib/core-api/load-wpcom-endpoints.php on line 26
+[14-Feb-2021 16:53:46 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/optimizations/trackbacks.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/includes/class-wp-optimizer.php on line 118
+[14-Feb-2021 16:53:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Surfaces\Helpers_Surface' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:3145
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getHelpersSurfaceService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/lib/abstract-main.php(65): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Su...')
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/inc/options/class-wpseo-option-titles.php(273): Yoast\WP\Lib\Abstract_Main->__get('helpers')
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/inc/options/class-wpseo-option.php(519): WPSEO_Option_Titles->enrich_defaults()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/inc/options/class-wpseo-option.php(837): WPSEO_Option in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 3145
+[14-Feb-2021 16:53:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Surfaces\Helpers_Surface' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:3145
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getHelpersSurfaceService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/lib/abstract-main.php(65): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get('Yoast\\WP\\SEO\\Su...')
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/inc/options/class-wpseo-option-titles.php(273): Yoast\WP\Lib\Abstract_Main->__get('helpers')
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/inc/options/class-wpseo-option.php(519): WPSEO_Option_Titles->enrich_defaults()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/inc/options/class-wpseo-option.php(837): WPSEO_Option in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 3145
+[14-Feb-2021 16:54:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/js_composer/include/params/el_id/el_id.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/js_composer/include/params/load.php on line 35
+[14-Feb-2021 16:54:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/js_composer/include/params/el_id/el_id.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/js_composer/include/params/load.php on line 35
+[14-Feb-2021 16:54:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/js_composer/include/params/el_id/el_id.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/js_composer/include/params/load.php on line 35
+[14-Feb-2021 16:54:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/js_composer/include/params/el_id/el_id.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/js_composer/include/params/load.php on line 35
+[14-Feb-2021 17:05:42 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/optimizations/images.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/includes/class-wp-optimizer.php on line 118
+[14-Feb-2021 17:05:42 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/includes/class-wp-optimize-images-trash-manager-commands.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/premium.php on line 611
+[14-Feb-2021 17:05:42 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../premium/classes/premium-orphaned-content-support.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 17:05:42 UTC] PHP Fatal error:  Uncaught Error: Class 'WPSEO_Premium_Orphaned_Content_Support' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/classes/premium-orphaned-post-filter.php:186
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/filters/class-abstract-post-filter.php(185): WPSEO_Premium_Orphaned_Post_Filter->get_post_types()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/filters/class-abstract-post-filter.php(151): WPSEO_Abstract_Post_Filter->is_supported_post_type('post')
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/filters/class-abstract-post-filter.php(58): WPSEO_Abstract_Post_Filter->is_filter_active()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/classes/premium-orphaned-post-filter.php(33): WPSEO_Abstract_Post_Filter->register_hooks()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/premium.php(220): WPSEO_Premium_Orphaned_ in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/classes/premium-orphaned-post-filter.php on line 186
+[14-Feb-2021 17:05:42 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Optimize_Images_Trash_Manager_Commands' not found in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/includes/class-wp-optimize-images-trash-manager.php:30
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/includes/class-wp-optimize-images-trash-manager.php(638): WP_Optimize_Images_Trash_Manager->__construct()
+#1 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/includes/class-wp-optimize-images-trash-manager.php(649): WP_Optimize_Images_Trash_Manager::instance()
+#2 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/premium.php(614): WP_Optimize_Images_Trash_Manager()
+#3 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/premium.php(79): WP_Optimize_Premium->include_images_trash()
+#4 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/premium.php(124): WP_Optimize_Premium->__construct()
+#5 /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/premium.php(757): WP_ in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/includes/class-wp-optimize-images-trash-manager.php on line 30
+[14-Feb-2021 17:05:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/options/class-metaboxes.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 17:05:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/integrations/dokan.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 17:05:53 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Api.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/functions.php on line 65
+[14-Feb-2021 17:05:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-task-manager-commands.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-task-manager.php on line 29
+[14-Feb-2021 17:05:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-task-manager-commands.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-task-manager.php on line 29
+[14-Feb-2021 17:06:16 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-admin/includes/theme.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-admin/includes/admin.php on line 71
+[14-Feb-2021 17:17:31 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/deprecated/ActionScheduler_Store_Deprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 122
+[14-Feb-2021 17:17:31 UTC] PHP Fatal error:  Uncaught Error: Class 'ActionScheduler_Store_Deprecated' not found in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:7
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(122): include()
+#1 [internal function]: ActionScheduler::autoload('ActionScheduler...')
+#2 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(25): spl_autoload_call('ActionScheduler...')
+#3 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(145): ActionScheduler::store()
+#4 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(44): ActionScheduler::init('/home/mediccli/...')
+#5 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Vers in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 7
+[14-Feb-2021 17:18:09 UTC] PHP Fatal error:  Uncaught Error: Class 'WPSEO_Post_Type' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/classes/premium-orphaned-content-support.php:28
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/classes/premium-orphaned-post-filter.php(188): WPSEO_Premium_Orphaned_Content_Support->get_supported_post_types()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/filters/class-abstract-post-filter.php(185): WPSEO_Premium_Orphaned_Post_Filter->get_post_types()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/filters/class-abstract-post-filter.php(151): WPSEO_Abstract_Post_Filter->is_supported_post_type('post')
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/admin/filters/class-abstract-post-filter.php(58): WPSEO_Abstract_Post_Filter->is_filter_active()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/classes/premium-orphaned-post-filter.p in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/premium/classes/premium-orphaned-content-support.php on line 28
+[14-Feb-2021 17:18:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-includes/script-loader.php on line 560
+[14-Feb-2021 17:44:51 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/helpers/taxonomy-helper.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 17:44:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Helpers\Taxonomy_Helper' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:2054
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(950): Yoast\WP\SEO\Generated\Cached_Container->getTaxonomyHelperService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(811): Yoast\WP\SEO\Generated\Cached_Container->getIndexableTermBuilderService()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SEO\Generated\Cached_Container->getIndexableBuilderService()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(917): Yoast\WP\SEO\Generated\Cached_Container->getIndexableRepositoryService()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(806): Yoast\WP\SEO\Generated\Ca in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 2054
+[14-Feb-2021 17:45:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/js_composer/include/params/vc_grid_item/editor/class-vc-grid-item-editor.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/js_composer/include/autoload/vc-grid-item-editor.php on line 13
+[14-Feb-2021 17:45:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/integrations/visual-composer/fields/slider.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 272
+[14-Feb-2021 17:45:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/admin/metaboxes/pages.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 17:45:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/admin/metaboxes/pages.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 17:45:02 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/elementor/core/common/app.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+[14-Feb-2021 17:45:02 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/ReportExporter.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[14-Feb-2021 17:45:02 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/elementor/core/app/app.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+[14-Feb-2021 17:45:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/integrations/visual-composer/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 272
+[14-Feb-2021 17:46:46 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/builders/indexable-post-type-archive-builder.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 17:46:46 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-settings.php on line 247
+[14-Feb-2021 17:46:47 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/wordads/wordads.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[14-Feb-2021 17:46:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/builder/Frontend.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[14-Feb-2021 17:46:47 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/builders/indexable-post-type-archive-builder.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 17:46:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Builders\Indexable_Post_Type_Archive_Builder' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:930
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(832): Yoast\WP\SEO\Generated\Cached_Container->getIndexablePostTypeArchiveBuilderService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SEO\Generated\Cached_Container->getIndexableBuilderService()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(1788): Yoast\WP\SEO\Generated\Cached_Container->getIndexableRepositoryService()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(826): Yoast\WP\SEO\Generated\Cached_Container->getIndexableHelperService()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.ph in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 930
+[14-Feb-2021 17:46:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Builders\Indexable_Post_Type_Archive_Builder' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:930
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(832): Yoast\WP\SEO\Generated\Cached_Container->getIndexablePostTypeArchiveBuilderService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SEO\Generated\Cached_Container->getIndexableBuilderService()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(1788): Yoast\WP\SEO\Generated\Cached_Container->getIndexableRepositoryService()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(826): Yoast\WP\SEO\Generated\Cached_Container->getIndexableHelperService()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.ph in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 930
+[14-Feb-2021 17:55:07 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/_inc/lib/class-jetpack-podcast-helper.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/require-lib.php on line 30
+[14-Feb-2021 17:55:07 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 17:55:07 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:19
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/main.php(59): require_once()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/lib/abstract-main.php(33): Yoast\WP\SEO\Main->get_container()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/functions.php(36): Yoast\WP\Lib\Abstract_Main->load()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/inc/options/class-wpseo-option-titles.php(273): YoastSEO()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/inc/options/class-wpseo-option.php(519): WPSEO_Option_Titles->enrich_defaults()
+#5 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/inc/options/class-wpseo-option.php(837): WPSEO_Option->get_defaults()
+#6 /home/mediccli/publi in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 19
+[14-Feb-2021 17:55:17 UTC] PHP Warning:  include(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/vendor/composer/../../src/helpers/meta-helper.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/ameliabooking/vendor/composer/ClassLoader.php on line 444
+[14-Feb-2021 17:55:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Yoast\WP\SEO\Helpers\Meta_Helper' not found in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php:964
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(832): Yoast\WP\SEO\Generated\Cached_Container->getPrimaryTermBuilderService()
+#1 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SEO\Generated\Cached_Container->getIndexableBuilderService()
+#2 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(1788): Yoast\WP\SEO\Generated\Cached_Container->getIndexableRepositoryService()
+#3 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(826): Yoast\WP\SEO\Generated\Cached_Container->getIndexableHelperService()
+#4 /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php(3044): Yoast\WP\SEO\Generated\Cached in /home/mediccli/public_html/wp-content/plugins/wordpress-seo-premium/src/generated/container.php on line 964
+[14-Feb-2021 17:55:27 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/admin/settings/other.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 151
+[16-Feb-2021 09:40:10 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/themes/woodmart/inc/integrations/visual-composer/maps/blog.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/themes/woodmart/inc/classes/Theme.php on line 345
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/subscriptions/subscriptions.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/subscriptions/subscriptions.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/subscriptions/subscriptions.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/w[16-Feb-2021 09:40:10 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/jetpack/modules/related-posts/jetpack-related-posts.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/modules/related-posts.php on line 48
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/tiled-gallery/tiled-gallery.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/optimizations/postmeta.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/wp-optimize-premium/includes/class-wp-optimizer.php on line 118
+[16-Feb-2021 09:40:10 UTC] PHP Fatal error:  require(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/woodmart-core/importer/parsers.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woodmart-core/importer/wordpress-importer.php on line 16
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php on line 54
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php on line 54
+[16-Feb-2021 09:40:10 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mediccli/public_html/wp-content/plugins/imagify/vendor/composer/autoload_static.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/imagify/vendor/composer/autoload_real.php on line 31
+[16-Feb-2021 09:40:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Order' not found in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/Order.php:18
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(87): require()
+#1 [internal function]: Automattic\Jetpack\Autoloader\jp1c37d41437aca3a88a6b698473c4d5c4\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/OrdersScheduler.php(34): spl_autoload_call('Automattic\\WooC...')
+#3 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/ReportsSync.php(24): Automattic\WooCommerce\Admin\Schedulers\OrdersScheduler::init()
+#4 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php(174): Automattic\WooCommerce\Admin\ReportsSync::init()
+#5 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocom in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/Order.php on line 18
+[16-Feb-2021 09:40:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Order' not found in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/Order.php:18
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(87): require()
+#1 [internal function]: Automattic\Jetpack\Autoloader\jp1c37d41437aca3a88a6b698473c4d5c4\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/OrdersScheduler.php(34): spl_autoload_call('Automattic\\WooC...')
+#3 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/ReportsSync.php(24): Automattic\WooCommerce\Admin\Schedulers\OrdersScheduler::init()
+#4 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php(174): Automattic\WooCommerce\Admin\ReportsSync::init()
+#5 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocom in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/Order.php on line 18
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php on line 54
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php on line 54
+[16-Feb-2021 09:40:10 UTC] PHP Warning:  include_once(): Failed opening '/home/mediccli/public_html/wp-content/plugins/jetpack/extensions/blocks/subscriptions/subscriptions.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mediccli/public_html/wp-content/plugins/jetpack/class.jetpack-gutenberg.php on line 739
+[16-Feb-2021 09:40:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Order' not found in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/Order.php:18
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(87): require()
+#1 [internal function]: Automattic\Jetpack\Autoloader\jp1c37d41437aca3a88a6b698473c4d5c4\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/OrdersScheduler.php(34): spl_autoload_call('Automattic\\WooC...')
+#3 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/ReportsSync.php(24): Automattic\WooCommerce\Admin\Schedulers\OrdersScheduler::init()
+#4 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php(174): Automattic\WooCommerce\Admin\ReportsSync::init()
+#5 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocom in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/Order.php on line 18
+[16-Feb-2021 09:40:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WC_Order' not found in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/Order.php:18
+Stack trace:
+#0 /home/mediccli/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(87): require()
+#1 [internal function]: Automattic\Jetpack\Autoloader\jp1c37d41437aca3a88a6b698473c4d5c4\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/OrdersScheduler.php(34): spl_autoload_call('Automattic\\WooC...')
+#3 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/ReportsSync.php(24): Automattic\WooCommerce\Admin\Schedulers\OrdersScheduler::init()
+#4 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php(174): Automattic\WooCommerce\Admin\ReportsSync::init()
+#5 /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocom in /home/mediccli/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/Order.php on line 18
